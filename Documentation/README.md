@@ -5,7 +5,7 @@
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
 <hr>
-This is the first milestone project in a Full Stack Dev Course by Code Institute and will be the major points as to what grades will be given in the course.
+This is a <strong>fictional</strong> webpage created for the first milestone project in a Full Stack Dev Course by Code Institute and will be the major points as to what grades will be given in the course.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 <hr>
 
 > ### Planning.
->> My project will be to create a static webpage covering the growing issues of water scarcity and overconsumption. To do this I will use **HTML**, **CSS** and possibly simpler **JavaScript**
+>> The project will be to create a static webpage covering the growing issues of water scarcity and overconsumption. To do this I will use **HTML**, **CSS** and possibly simpler **JavaScript**
 <hr>
 
 > ### User Goals.
@@ -72,7 +72,6 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 # 5. Final Testing
 
 # 6. External Code/Libraries/Assets
-> partners.html
-> Line 33-181
->> This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187.
->> The Original code is made by made, and the reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
+> partners.html @ Line 33-181
+>> This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187 *this is currently with placeholder text*.
+>> The Original code is made by me. The reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
