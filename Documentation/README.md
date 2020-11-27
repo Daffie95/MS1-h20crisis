@@ -26,7 +26,8 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 <hr>
 
 > ### Planning.
->> The project will be to create a static webpage covering the growing issues of water scarcity and overconsumption. To do this I will use **HTML**, **CSS** and possibly simpler **JavaScript**
+>> The project will be to create a static webpage covering the growing issues of water scarcity and overconsumption. To do this I will use **HTML**, **CSS** and possibly simpler **JavaScript**. <br>
+The Ideas I have is to create an eyecatching but "concentrated" flow of information. Using a green**ish** color frame to further emphisize concentration and ease on the readers eye.
 <hr>
 
 > ### User Goals.
