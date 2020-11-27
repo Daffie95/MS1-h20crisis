@@ -39,11 +39,15 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 # 2. Updates
 
 > 0.2
+>> Added placeholder footer
+>> Gave Landingpage and Resources text container a gradient background
+>> Updated index.htlm & Resources.html to match
 >> Added Parallax scroll
 >> Added placeholder background
 >> Added Smooth scroll
 
 > 0.1
+>> Fixed position for in-page buttons
 >> Content Box for main text
 >> Buttons to navigate in-page to content
 >> Page titles to corresponding pages.

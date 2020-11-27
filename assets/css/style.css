@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Roboto:wght@300&display=swap");
 
-body, html {
+/*Body Styling*/
+body,
+html {
   height: 100%;
 }
 
@@ -9,30 +11,37 @@ html {
 }
 
 body {
-  
-  background: url(/assets/images/placeholder.jpg);
+  background: url(/assets/images/);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  
-
   font-family: "Roboto", san-serif; /* Global Font */
   font-size: 20px; /*Global font Size */
   line-height: 1.5; /* Global line height */
   color: #cccccc;
-
-  
 }
 
-/* Navigation Styling */
-
-/* Jumbotron Styling */
-
-.order-1 {
+/* Global Navigation Styling */
+.nav-styling {
 }
 
-.order-2 {
+/* Global Footer Styling */
+.footer-styling {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #999;
 }
 
+/* Landingpage Jumbotron Styling */
+.jumbotron {
+    background-color: rgb(0 0 0 / 40%);
+    margin-top: 35px;
+    margin-left: -5px;
+}
 
+button-styling {
+}
