@@ -41,7 +41,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
+> 0.4
+>> * Updated global navbar to A from UL.
+
 > 0.3
+>> * Added container with placeholder text to helpus.html.
 >> * Updated README
 >> * Re-modeled code snippet mentioned below
 >> * Added code snippet from previous work because the goal was quite similar. also mentioned in <strong>6.</strong>
