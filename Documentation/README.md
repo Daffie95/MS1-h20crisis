@@ -11,10 +11,11 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 
 1. Project Planning
 2. Updates
-3. Current Bugs & Errors
-4. Resources Used
-5. Final Testing
+3. Planned Updates
+4. Current Bugs & Errors
+5. Resources Used
 6. External Code/Libraries/Assets
+7. Final Testing
 
 
 
@@ -65,11 +66,11 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 > 0.0
 >> * Project is Created.
 
-# 3. Bugs & Errors
+# 3. Planned Updates
 
-# 4. Resources Used
+# 4. Bugs & Errors
 
-# 5. Final Testing
+# 5. Resources Used
 
 # 6. External Code/Libraries/Assets
 > partners.html @ Line 33-181
