@@ -38,6 +38,11 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 
 # 2. Updates
 
+> 0.2
+>> Added Parallax scroll
+>> Added placeholder background
+>> Added Smooth scroll
+
 > 0.1
 >> Content Box for main text
 >> Buttons to navigate in-page to content
