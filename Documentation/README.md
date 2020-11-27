@@ -14,6 +14,7 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 3. Current Bugs & Errors
 4. Resources Used
 5. Final Testing
+6. External Code/Libraries/Assets
 
 
 
@@ -38,28 +39,40 @@ This is the first milestone project in a Full Stack Dev Course by Code Institute
 
 # 2. Updates
 
+> 0.3
+>> * Updated README
+>> * Re-modeled code snippet mentioned below
+>> * Added code snippet from previous work because the goal was quite similar. also mentioned in <strong>6.</strong>
+>> * Started Framework on Partner page.
+
 > 0.2
->> Added placeholder footer
->> Gave Landingpage and Resources text container a gradient background
->> Updated index.htlm & Resources.html to match
->> Added Parallax scroll
->> Added placeholder background
->> Added Smooth scroll
+>> * Added placeholder footer
+>> * Gave Landingpage and Resources text container a gradient background
+>> * Updated index.htlm & Resources.html to match
+>> * Added Parallax scroll
+>> * Added placeholder background
+>> * Added Smooth scroll
 
 > 0.1
->> Fixed position for in-page buttons
->> Content Box for main text
->> Buttons to navigate in-page to content
->> Page titles to corresponding pages.
->> Error Page / broken links page 
->> Font libraries (Dosis, Roboto) from google fonts.
->> Bootstrap v4.5 into all HTML documents for the page. And made sure all responsive meta-tags is in place.
+>> * Fixed position for in-page buttons
+>> * Content Box for main text
+>> * Buttons to navigate in-page to content
+>> * Page titles to corresponding pages.
+>> * Error Page / broken links page 
+>> * Font libraries (Dosis, Roboto) from google fonts.
+>> * Bootstrap v4.5 into all HTML documents for the page. And made sure all responsive meta-tags is in place.
 
 > 0.0
->> Project is Created.
+>> * Project is Created.
 
 # 3. Bugs & Errors
 
 # 4. Resources Used
 
 # 5. Final Testing
+
+# 6. External Code/Libraries/Assets
+> partners.html
+> Line 33-181
+>> This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187.
+>> The Original code is made by made, and the reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.

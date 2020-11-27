@@ -45,3 +45,33 @@ body {
 
 button-styling {
 }
+
+
+/* Partner Page Styling */
+
+.page-header {
+    margin-left: 39%;
+    margin-top: 35px;
+}
+
+.partner-header {
+
+}
+
+.partner-block-divider {
+    size: 100%;
+}
+
+.partner-row-styling {
+    margin: 5px;
+}
+
+.blockquote-styling{
+ background-color: rgb(0 0 0 / 40%);
+ border-radius: 15px;
+ font-size: 20px;
+}
+
+.blockquote-styling p {
+    margin: 5px;
+}
