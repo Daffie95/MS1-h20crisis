@@ -41,17 +41,19 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
-> 0.4
+> 0.4 2020-11-27
+>> * Added dates to 2. Updates
+>> * Removed all css because I couldnt focus on only Framework ...
 >> * Updated global navbar to A from UL.
 
-> 0.3
+> 0.3 2020-11-27
 >> * Added container with placeholder text to helpus.html.
 >> * Updated README
 >> * Re-modeled code snippet mentioned below
 >> * Added code snippet from previous work because the goal was quite similar. also mentioned in <strong>6.</strong>
 >> * Started Framework on Partner page.
 
-> 0.2
+> 0.2 2020-11-27
 >> * Added placeholder footer
 >> * Gave Landingpage and Resources text container a gradient background
 >> * Updated index.htlm & Resources.html to match
@@ -59,7 +61,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Added placeholder background
 >> * Added Smooth scroll
 
-> 0.1
+> 0.1 2020-11-27
 >> * Fixed position for in-page buttons
 >> * Content Box for main text
 >> * Buttons to navigate in-page to content
@@ -68,7 +70,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Font libraries (Dosis, Roboto) from google fonts.
 >> * Bootstrap v4.5 into all HTML documents for the page. And made sure all responsive meta-tags is in place.
 
-> 0.0
+> 0.0 2020-11-27
 >> * Project is Created.
 
 # 3. Planned Updates
