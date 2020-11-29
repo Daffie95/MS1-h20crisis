@@ -41,6 +41,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
+> 0.5 2020-11-29
+>> * navbar now collapses into hamburger menu on small screen devices (see <strong>6.</strong>)
+>> * Improved navbar on all pages
+>> * Begin styling of pages
+
 > 0.4 2020-11-27
 >> * Added dates to 2. Updates
 >> * Removed all css because I couldnt focus on only Framework ...
@@ -75,11 +80,27 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 3. Planned Updates
 
+> List of what I want to do with the page (as of 2020-11-29)
+>> * Update colorscheme across page
+>> * Update fonts across page
+>> * Update backgrounds across page
+>> * Update footer across page
+>> * Add content to frontpage
+>> * Add content to Resources
+>> * Add content to partners
+>> * Add content to Help us
+>> * Run debugger
+>> * Run testing
+
 # 4. Bugs & Errors
 
 # 5. Resources Used
 
 # 6. External Code/Libraries/Assets
+>Global navbar
+>> this navbar was used when I followed along the "**Progressive Enhancement with JavaScript Components - part 2**" of the Code Institute User Centric Frontend module.
+>> I think here is a copy of it in my [GitHub](https://github.com/Daffie95/bootstrap-intro) as I followed along on my own project. This is the [sourcecode for that project](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/04-progressive_enhancements_with_javascript_components-part-2/index.html).
+
 > partners.html @ Line 33-181
 >> This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187 *this is currently with placeholder text*.
 >> The Original code is made by me. The reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
