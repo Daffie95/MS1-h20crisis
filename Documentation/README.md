@@ -41,8 +41,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
+
+
 > 0.6 2020-11-30
->> * Added back to top footer on mobile only.
+>> * Added logos for respective quotes section
+>> * Added global "back-to-top" footer on mobile only
 >> * Jumbotrontext now fits entire screen on mobile.
 >> * Fixed Hamburger icon to fit on navbar line on mobile.
 >> * Finished styling the frame and background for the resources page.
