@@ -39,9 +39,11 @@ nav.navbar.navbar-light.navbar-expand-sm {
     width: 90% !important;
 }
 
- 
+.footer-copyright {
+    display: none;
 }
 
+}
 
 
 /* Body Styling */
@@ -92,13 +94,12 @@ span.navbar-toggler-icon {
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #c1b7b1;
+  color: #fff;
   text-decoration: underline;
-  text-decoration-thickness: 0.2px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #c1b7b1;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -110,7 +111,7 @@ span.navbar-toggler-icon {
 }
 
 .d-none > a:hover {
-  color: #c1b7b1;
+  color: #fff;
 }
 
 .d-none.d-md-block {
@@ -186,4 +187,18 @@ button.btn.btn-outline-success {
 
 .btn-outline-success:hover {
   background-color: #68625e;
+}
+
+
+/* footer styling */
+.navbar-footer{
+  background-color: rgb(105 127 134);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.navbar-footer a {
+    color: #e9e9eb;
 }

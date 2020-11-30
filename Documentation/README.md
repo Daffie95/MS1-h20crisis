@@ -41,43 +41,44 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
->0.6 2020-11-30
+> 0.6 2020-11-30
+>> * Added back to top footer on mobile only.
 >> * Jumbotrontext now fits entire screen on mobile.
 >> * Fixed Hamburger icon to fit on navbar line on mobile.
->> * Finished styling the frame and background for the resources page
->> * Finished styling the frame and background for the homepage page
+>> * Finished styling the frame and background for the resources page.
+>> * Finished styling the frame and background for the homepage page.
 
 > 0.5 2020-11-29
->> * navbar now collapses into hamburger menu on small screen devices (see <strong>6.</strong>)
->> * Improved navbar on all pages
->> * Begin styling of pages
+>> * navbar now collapses into hamburger menu on small screen devices (see <strong>6.</strong>).
+>> * Improved navbar on all pages.
+>> * Begin styling of pages.
 
 > 0.4 2020-11-27
->> * Added dates to 2. Updates
+>> * Added dates to 2. Updates.
 >> * Removed all css because I couldnt focus on only Framework ...
 >> * Updated global navbar to A from UL.
 
 > 0.3 2020-11-27
 >> * Added container with placeholder text to helpus.html.
->> * Updated README
->> * Re-modeled code snippet mentioned below
+>> * Updated README.
+>> * Re-modeled code snippet mentioned below.
 >> * Added code snippet from previous work because the goal was quite similar. also mentioned in <strong>6.</strong>
 >> * Started Framework on Partner page.
 
 > 0.2 2020-11-27
->> * Added placeholder footer
->> * Gave Landingpage and Resources text container a gradient background
->> * Updated index.htlm & Resources.html to match
->> * Added Parallax scroll
->> * Added placeholder background
->> * Added Smooth scroll
+>> * Added placeholder footer.
+>> * Gave Landingpage and Resources text container a gradient background.
+>> * Updated index.htlm & Resources.html to match.
+>> * Added Parallax scroll.
+>> * Added placeholder background.
+>> * Added Smooth scroll.
 
 > 0.1 2020-11-27
->> * Fixed position for in-page buttons
->> * Content Box for main text
->> * Buttons to navigate in-page to content
+>> * Fixed position for in-page buttons.
+>> * Content Box for main text.
+>> * Buttons to navigate in-page to content.
 >> * Page titles to corresponding pages.
->> * Error Page / broken links page 
+>> * Error Page / broken links page .
 >> * Font libraries (Dosis, Roboto) from google fonts.
 >> * Bootstrap v4.5 into all HTML documents for the page. And made sure all responsive meta-tags is in place.
 
@@ -87,16 +88,16 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 3. Planned Updates
 
 > List of what I want to do with the page (as of 2020-11-29)
->> * Update colorscheme across page
->> * Update fonts across page
->> * Update backgrounds across page
->> * Update footer across page
->> * Add content to frontpage
->> * Add content to Resources
->> * Add content to partners
->> * Add content to Help us
->> * Run debugger
->> * Run testing
+>> * Update colorscheme across page.
+>> * Update fonts across page.
+>> * Update backgrounds across page.
+>> * Update footer across page.
+>> * Add content to frontpage.
+>> * Add content to Resources.
+>> * Add content to partners.
+>> * Add content to Help us.
+>> * Run debugger.
+>> * Run testing.
 
 # 4. Bugs & Errors
 
