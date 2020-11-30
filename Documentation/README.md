@@ -43,7 +43,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 
 
-> 0.6 2020-11-30
+> 0.6 2020-11-30'
+>> * Finished styling Help us page
 >> * Added logos for respective quotes section.
 >> * Added global "back-to-top" footer on mobile only.
 >> * Jumbotrontext now fits entire screen on mobile.
