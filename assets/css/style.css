@@ -1,2 +1,189 @@
+/*Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+/*html scroll effect*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Display & Screensizes */
+
+@media only screen and (max-width: 736px) {
+  .col-4.order-2 {
+    display: none}
+
+nav.navbar.navbar-light.navbar-expand-sm {
+    margin-left: -10px;
+}
+
+  .jombotron-header {
+      display: none;
+  }
+  .navbar-toggler.ml-auto{
+      display: center;
+  }
+   .jumbotron.landingpage-text-container{
+      display: table-cell;
+      width: 100%;
+   }
+   p.lead {
+       max-width: 100%;
+       max-height: auto;
+       font-size: 19px;
+       clear: both;
+       }
+
+.jumbotron.landingpage-text-container{
+    padding: 15px !important;
+    width: 90% !important;
+}
+
+ 
+}
 
 
+
+/* Body Styling */
+body {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: gainsboro;
+}
+
+body.front-resource {
+  background: url(/assets/images/bg-image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Navbar Styling */
+
+a.navbar-brand {
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+ul.navbar-nav.mr-auto.navbar-collapsed {
+  margin-top: 20px;
+  border: solid 2px #d5e4e0;
+}
+
+span.navbar-toggler-icon {
+    color: #d5e4e0;
+    border: solid 1px;
+    background-color: #d5e4e0;
+    opacity: 40%;
+}
+
+.navbar-light .navbar-brand {
+  color: #d5e4e0;
+  font-family: "Roboto";
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d5e4e0;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #c1b7b1;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c1b7b1;
+  text-decoration: underline;
+}
+
+
+
+.d-none > a {
+  color: #d5e4e0;
+  font-weight: 400;
+}
+
+.d-none > a:hover {
+  color: #c1b7b1;
+}
+
+.d-none.d-md-block {
+  margin-top: 20px;
+  margin-right: 180px;
+}
+
+.d-none.d-md-block a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+/*Navbar brand active style*/
+a.navbar-brand.active-styling.active {
+  color: white;
+  text-decoration: underline;
+}
+
+/*Navbar links active style*/
+a.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Jumbotron styling */
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron.landingpage-text-container {
+  padding: 4rem;
+  margin-left: 80px;
+  color: #f8f9fa;
+}
+
+h1.display-3.jombotron-header {
+  color: #f8f9fa;
+}
+
+/* inpage button styling */
+
+button.btn.btn-outline-primary {
+  margin-left: 100px;
+  border-color: white;
+  color: white;
+}
+
+button.btn.btn-outline-secondary {
+  margin-left: 140px;
+  border-color: white;
+  color: white;
+}
+
+button.btn.btn-outline-success {
+  margin-left: 206px;
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-primary:hover {
+  background-color: #68625e;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #68625e;
+}
+
+.btn-outline-success:hover {
+  background-color: #68625e;
+}

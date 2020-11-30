@@ -9,13 +9,13 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 
 ## Table of Contents
 
-1. Project Planning
-2. Updates
-3. Planned Updates
-4. Current Bugs & Errors
-5. Resources Used
-6. External Code/Libraries/Assets
-7. Final Testing
+1. <strong>Project Planning</strong>
+2. <strong>Updates</strong>
+3. <strong>Planned Updates</strong>
+4. <strong>Bugs & Errors</strong>
+5. <strong>Resources Used</strong>
+6. <strong>External Code/Libraries/Assets</strong>
+7. <strong>Final Testing</strong>
 
 
 
@@ -40,6 +40,12 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 <hr>
 
 # 2. Updates
+
+>0.6 2020-11-30
+>> * Jumbotrontext now fits entire screen on mobile.
+>> * Fixed Hamburger icon to fit on navbar line on mobile.
+>> * Finished styling the frame and background for the resources page
+>> * Finished styling the frame and background for the homepage page
 
 > 0.5 2020-11-29
 >> * navbar now collapses into hamburger menu on small screen devices (see <strong>6.</strong>)
@@ -94,7 +100,16 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 4. Bugs & Errors
 
+> Active link not showing correct color. (2020-11-30)
+>> * <strong>Expected result:</strong>
+>> "Help Us & Contacts" link to be correct color when active, and not green as it is in idle state.
+>> * <strong>Actual Result:</strong>
+>> ~~"Help Us  & Contacts" link turns the wrong color on active but is being overwritten to turn back to green.~~
+>> * <strong>Solution:</strong>
+>> Targetting the correct class with proper 
+
 # 5. Resources Used
+
 
 # 6. External Code/Libraries/Assets
 >Global navbar
