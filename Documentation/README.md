@@ -5,7 +5,7 @@
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
 <hr>
-This is a <strong>fictional</strong> webpage created for the first milestone project in a Full Stack Dev Course by Code Institute and will be the major points as to what grades will be given in the course.
+This is a <strong>fictional</strong> webpage created for the first milestone project in a Full Stack Dev Course by Code Institute and will be the major points as to being graded on the course.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 <hr>
 
 > ### User Goals.
->> The users of this page would be people that wants to gather information about the problematic states of waterconsumption all over the world, and what they can do to change it.
+>> The users of this page is people that wants to gather information about the problematic states of waterconsumption all over the world, and what they can do to change it.
 <hr>
 
 > ### Host Goals.
@@ -42,6 +42,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 2. Updates
 
 > 0.7 2020-12-01
+>> * Finished content on landing page.
+>> * Updated <strong>3.Planned Updates</strong>
 >> * Added contet to Landing page
 >> * Connected in-page nav to corresponding sections on the page.
 >> * updated Link:focus color.
@@ -94,12 +96,14 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 3. Planned Updates
 
-> List of what I want to do with the page (as of 2020-11-29)
->> * Update colorscheme across page.
->> * Update fonts across page.
->> * Update backgrounds across page.
+> List of what updates coming to the page (updated 2020-12-01)
+>> * Create a mobile inscreen navigation
+>> * Downscale background image for faster loading times.
+>> * ~~Update colorscheme across page.~~
+>> * ~~Update fonts across page.~~
+>> * ~~Update backgrounds across page.~~
 >> * Update footer across page.
->> * Add content to frontpage.
+>> * ~~Add content to frontpage.~~
 >> * Add content to Resources.
 >> * Add content to partners.
 >> * Add content to Help us.
@@ -117,6 +121,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> Targetting the correct class with proper 
 
 # 5. Resources Used
+
+> * Content Sources
+[UNWATER](https://www.unwater.org/water-facts/)
+[WHOlives](https://wholives.org/our-mission/mission/)
+
 
 
 # 6. External Code/Libraries/Assets
