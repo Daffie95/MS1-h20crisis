@@ -36,6 +36,10 @@ html {
   .footer-copyright {
     display: none;
   }
+
+  h1.display-3.jumbo-header{
+      font-size: 1rem;
+  }
 }
 
 /* Global Body Styling */
@@ -149,6 +153,13 @@ h1.display-4.jombotron-header {
 }
 a,a:hover,a:focus,a:active,a:visited {
 color: #fff;
+}
+
+h1.display-3.jumbo-header {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 3rem;
 }
 
 /* inpage nav button styling */
