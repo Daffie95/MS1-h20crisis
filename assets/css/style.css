@@ -51,7 +51,7 @@ body {
   font-weight: 300;
   color: #f1ece7;
 }
-body.front-resource {
+body{
   background: url(/assets/images/bg-image.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
