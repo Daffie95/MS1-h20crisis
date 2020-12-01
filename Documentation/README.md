@@ -44,8 +44,10 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 > 0.7 2020-12-01
 >> * Finished content on landing page.
->> * Updated <strong>3.Planned Updates</strong>
->> * Added contet to Landing page
+>> * Updated <strong>3.Planned Updates</strong>.
+>> * Added contet to Landing page.
+>> * Updated footer across page.
+>> * Updated Help us Page button and Header to be mobile responsive.
 >> * Connected in-page nav to corresponding sections on the page.
 >> * updated Link:focus color.
 
@@ -125,7 +127,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 5. Resources Used
 
 > * Code Sources
->> 
+>> [stackoverflow Font Border/Text Shadow](https://stackoverflow.com/questions/2570972/css-font-border)
 
 > * Content Sources
 >>[UNWATER](https://www.unwater.org/water-facts/)<br>
@@ -134,6 +136,10 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 
 # 6. External Code/Libraries/Assets
+>Font Shadow @ (Global nav links and header element on Partner page.)
+>> I used the CSS snippets to create a "font border" effect. I used a snipped from this [stackoverflow](https://stackoverflow.com/questions/2570972/css-font-border). I mainly used this because I was afraid if screwing up any of the axis shadows.
+>> And I did not want to experiment with -webkit-text-stroke. 
+
 >Global navbar
 >> this navbar was used when I followed along the "**Progressive Enhancement with JavaScript Components - part 2**" of the Code Institute User Centric Frontend module.
 >> I think here is a copy of it in my [GitHub](https://github.com/Daffie95/bootstrap-intro) as I followed along on my own project. This is the [sourcecode for that project](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/04-progressive_enhancements_with_javascript_components-part-2/index.html).
