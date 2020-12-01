@@ -177,9 +177,24 @@ h1.display-3.jumbo-header {
   font-size: 3rem;
 }
 
-.iframe-player {
-    display: block;
-    margin-left: 5rem;
+blockquote.block-styling {
+    font-style: oblique;
+}
+
+p.footprint-styling {
+    margin-left: 70px;
+}
+
+strong.green-print{
+    color: #8eb18e;
+}
+
+strong.blue-print{
+    color: #88bcf5;
+}
+
+strong.gray-print{
+    color: #f1ece7;
 }
 
 /* inpage nav button styling */

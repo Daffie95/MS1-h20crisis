@@ -17,6 +17,7 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 6. <strong>External Code/Libraries/Assets</strong>
 7. <strong>Testing</strong>
 8. <strong>Final Testing</strong>
+9. <strong>Additional Comments</strong>
 
 
 
@@ -135,8 +136,10 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 > * Content Sources
 >>[UNWATER](https://www.unwater.org/water-facts/)<br>
-[WHOlives](https://wholives.org/our-mission/mission/)
-[Ramsar](https://www.ramsar.org/)
+>>[WHOlives](https://wholives.org/our-mission/mission/)<br>
+>>[Ramsar](https://www.ramsar.org/)<br>
+>>[waterfootprintnetwork](https://waterfootprint.org/)<br>
+>>[the three water footprints](https://waterfootprint.org/en/water-footprint/what-is-water-footprint/)<br> (additional comments @ line 172)
 
 
 # 6. External Code/Libraries/Assets
@@ -164,3 +167,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >>> * Redundant code in css.style (WiP)
 
 # 8. Final Testing
+
+# 9. Additional Comments
+> resources.html @ lines 151-172
+>> The text content in these paragraphs are directly copied from the [Water FootPrint Webpage.](https://waterfootprint.org/en/water-footprint/what-is-water-footprint/)
+>> The reason for this is that I did not want to misuse or misspell any of the words, as english is not my native language those words were perticularly hard to write correctly.
