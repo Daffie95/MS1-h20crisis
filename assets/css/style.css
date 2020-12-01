@@ -18,17 +18,14 @@ html {
 
   .jombotron-header {
     display: none;
-  }
-
+ }
   .jumbotron.landingpage-text-container {
     display: table-cell;
     width: 100%;
   }
   p.lead {
     max-width: 100%;
-    max-height: auto;
     font-size: 19px;
-    clear: both;
   }
 
   .jumbotron.landingpage-text-container {
