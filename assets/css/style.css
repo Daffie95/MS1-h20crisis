@@ -8,6 +8,7 @@ html {
 
 /* Media Queries */
 @media only screen and (max-width: 736px) {
+  
   .col-4.order-2 {
     display: none;
   }
@@ -18,7 +19,7 @@ html {
 
   .jombotron-header {
     display: none;
- }
+  }
   .jumbotron.landingpage-text-container {
     display: table-cell;
     width: 100%;
@@ -33,13 +34,21 @@ html {
     width: 90% !important;
   }
 
-  .footer-copyright {
-    display: none;
+  h1.display-3.jumbo-header {
+    font-size: 2rem !important;
+    text-decoration: underline;
   }
 
-  h1.display-3.jumbo-header{
-      font-size: 2rem !important;
-      text-decoration: underline;
+  a.col-4.btn-block.btn-success.btn-lg{
+      display: inline;
+    margin-left: 2.4rem;
+    padding: inherit;
+  }
+
+  .footer-copyright {
+    display: none;
+
+
   }
 }
 
@@ -49,7 +58,7 @@ body {
   font-weight: 300;
   color: #f1ece7;
 }
-body{
+body {
   background: url(../images/bg-image.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -91,7 +100,7 @@ span.navbar-toggler-icon {
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 .navbar-light .navbar-nav .nav-link a:focus {
-    text-shadow: none;
+  text-shadow: none;
 }
 .navbar-light .navbar-brand:hover {
   color: #fff;
@@ -152,15 +161,19 @@ h1.display-4.jombotron-header {
   color: #e0dbd6;
   text-align: center;
 }
-a,a:hover,a:focus,a:active,a:visited {
-color: #fff;
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  color: #fff;
 }
 
 h1.display-3.jumbo-header {
-    text-align: center;
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 3rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 3rem;
 }
 
 /* inpage nav button styling */
@@ -174,7 +187,6 @@ button.btn.btn-outline-secondary {
 }
 .btn-outline-secondary:focus {
   background-color: #68625e;
-  
 }
 
 /* footer styling */
@@ -189,6 +201,10 @@ button.btn.btn-outline-secondary {
 }
 .navbar-footer a {
   color: #e9e9eb;
+}
+
+.footer-copyright.text-center.py-3 {
+  font-size: 0.5rem;
 }
 
 /* Partner page styling */
@@ -232,7 +248,9 @@ button.btn.btn-outline-secondary {
 .jumbotron.jumbotron-fluid {
   background: rgba(0, 0, 0, 0.4);
 }
-.display-4 {
-  color: #d5e4e0;
-  font-family: "Roboto";
+
+
+/* Donate button */
+a.col-4.btn-block.btn-success.btn-lg {
+  width: fit-content;
 }
