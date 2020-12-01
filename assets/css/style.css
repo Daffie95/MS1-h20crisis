@@ -24,6 +24,8 @@ html {
   .navbar-toggler.ml-auto {
     display: center;
   }
+
+
   .jumbotron.landingpage-text-container {
     display: table-cell;
     width: 100%;
@@ -49,7 +51,7 @@ html {
 body {
   font-family: "Roboto";
   font-weight: 300;
-  color: gainsboro;
+  color: #f1ece7;
 }
 
 body.front-resource {
@@ -66,6 +68,7 @@ a.navbar-brand {
   font-size: 40px;
   margin-left: 10px;
   font-weight: 400;
+  color: #e0dbd6;
   font-family: "Roboto";
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -73,29 +76,33 @@ a.navbar-brand {
 
 ul.navbar-nav.mr-auto.navbar-collapsed {
   margin-top: 20px;
-  border: solid 2px #d5e4e0;
+  border: solid 2px #e0dbd6
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 span.navbar-toggler-icon {
-  color: #d5e4e0;
+  color: #e0dbd6;
   border: solid 1px;
-  background-color: #d5e4e0;
+  background-color: #e0dbd6;
   opacity: 40%;
 }
 
 .navbar-light .navbar-brand {
-  color: #d5e4e0;
+  color: #e0dbd6;
   font-family: "Roboto";
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #d5e4e0;
+  color: #e0dbd6;
   font-weight: 400;
   font-family: "Roboto";
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.navbar-light .navbar-nav .nav-link a:focus {
+    text-shadow: none;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -109,7 +116,7 @@ span.navbar-toggler-icon {
 }
 
 .d-none > a {
-  color: #d5e4e0;
+  color: #e0dbd6;
   font-weight: 400;
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -125,7 +132,7 @@ span.navbar-toggler-icon {
 }
 
 .d-none .d-md-block a:active {
-  color: white;
+  color: #e0dbd6;
   text-decoration: underline;
 }
 
@@ -155,48 +162,50 @@ a.navbar-light .navbar-nav .nav-link.active {
 
 .jumbotron.landingpage-text-container {
   margin-left: 80px;
-  color: #f8f9fa;
+
 }
 
 .jumbotron.landingpage-text-container p {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 h1.display-3.jombotron-header {
-  color: #f8f9fa;
+  color: #e0dbd6;
+  text-align: center;
+}
+
+h1.display-4.jombotron-header {
+  color: #e0dbd6;
+  text-align: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+color: #fff;
 }
 
 /* inpage button styling */
 
-button.btn.btn-outline-primary {
+button.btn.btn-outline-secondary {
   margin-left: 100px;
   border-color: white;
   color: white;
 }
 
-button.btn.btn-outline-secondary {
-  margin-left: 140px;
-  border-color: white;
-  color: white;
-}
-
-button.btn.btn-outline-success {
-  margin-left: 206px;
-  border-color: white;
-  color: white;
-}
-
-.btn-outline-primary:hover {
-  background-color: #68625e;
-}
-
 .btn-outline-secondary:hover {
   background-color: #68625e;
+
 }
 
-.btn-outline-success:hover {
+.btn-outline-secondary:focus {
   background-color: #68625e;
+  
 }
+
+
 
 /* footer styling */
 .navbar-footer {

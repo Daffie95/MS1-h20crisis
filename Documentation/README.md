@@ -41,9 +41,12 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
+> 0.7 2020-12-01
+>> * Added contet to Landing page
+>> * Connected in-page nav to corresponding sections on the page.
+>> * updated Link:focus color.
 
-
-> 0.6 2020-11-30'
+> 0.6 2020-11-30
 >> * Finished styling Help us page
 >> * Added logos for respective quotes section.
 >> * Added global "back-to-top" footer on mobile only.
