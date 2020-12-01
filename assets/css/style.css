@@ -19,10 +19,6 @@ html {
   .jombotron-header {
     display: none;
   }
-  .navbar-toggler.ml-auto {
-    display: center;
-  }
-
 
   .jumbotron.landingpage-text-container {
     display: table-cell;
@@ -71,7 +67,7 @@ a.navbar-brand {
 }
 ul.navbar-nav.mr-auto.navbar-collapsed {
   margin-top: 20px;
-  border: solid 2px #e0dbd6
+  border: solid 2px #e0dbd6;
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
