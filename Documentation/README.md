@@ -97,6 +97,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 3. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-01)
+>> * Update Landingpage & Resources headers to use different class and scale down on mobile.
 >> * Create a mobile inscreen navigation
 >> * Downscale background image for faster loading times.
 >> * ~~Update colorscheme across page.~~
