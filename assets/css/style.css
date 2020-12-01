@@ -38,7 +38,8 @@ html {
   }
 
   h1.display-3.jumbo-header{
-      font-size: 1rem;
+      font-size: 2rem !important;
+      text-decoration: underline;
   }
 }
 

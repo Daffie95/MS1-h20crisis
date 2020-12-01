@@ -15,7 +15,8 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 4. <strong>Bugs & Errors</strong>
 5. <strong>Resources Used</strong>
 6. <strong>External Code/Libraries/Assets</strong>
-7. <strong>Final Testing</strong>
+7. <strong>Testing</strong>
+8. <strong>Final Testing</strong>
 
 
 
@@ -97,8 +98,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 3. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-01)
->> * Update Landingpage & Resources headers to use different class and scale down on mobile.
->> * Create a mobile inscreen navigation
+>> * ~~Update Landingpage & Resources headers to use different class and scale down on mobile.~~
+>> * ~~Create a mobile inscreen navigation~~ (discarded 2020-12-01)
 >> * Downscale background image for faster loading times.
 >> * ~~Update colorscheme across page.~~
 >> * ~~Update fonts across page.~~
@@ -123,8 +124,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 5. Resources Used
 
+> * Code Sources
+>> 
+
 > * Content Sources
-[UNWATER](https://www.unwater.org/water-facts/)
+>>[UNWATER](https://www.unwater.org/water-facts/)<br>
 [WHOlives](https://wholives.org/our-mission/mission/)
 
 
@@ -137,3 +141,16 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 > partners.html @ Line 33-181
 >> This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187 *this is currently with placeholder text*.
 >> The Original code is made by me. The reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
+
+# 7. Testing
+> 2020-12-01 (~18:30)
+>> filepath errors across all pages. 
+>>> * Filepath errors across all pages (Fixed)
+
+>>  Background image slows down loading. 
+>>> * Backgrond image slows down loading (WiP)
+
+>> Redundant code in css.style.
+>>> * Redundant code in css.style (WiP)
+
+# 8. Final Testing
