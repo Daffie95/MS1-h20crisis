@@ -101,19 +101,22 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 3. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-01)
+>> * Update every link, image, video to have alt attribute and to use the target:_blank attribute
+>> * Create 404 page.
 >> * ~~Update Landingpage & Resources headers to use different class and scale down on mobile.~~
 >> * ~~Create a mobile inscreen navigation~~ (discarded 2020-12-01)
 >> * Downscale background image for faster loading times.
 >> * ~~Update colorscheme across page.~~
 >> * ~~Update fonts across page.~~
 >> * ~~Update backgrounds across page.~~
->> * Update footer across page.
+>> * ~~Update footer across page.~~
+>> * Update mobile footer across page.
 >> * ~~Add content to frontpage.~~
 >> * Add content to Resources.
 >> * Add content to partners.
 >> * Add content to Help us.
->> * Run debugger.
->> * Run testing.
+>> * Run final debugger.
+>> * Run final testing.
 
 # 4. Bugs & Errors
 
@@ -133,13 +136,13 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 > * Content Sources
 >>[UNWATER](https://www.unwater.org/water-facts/)<br>
 [WHOlives](https://wholives.org/our-mission/mission/)
-
+[Ramsar](https://www.ramsar.org/)
 
 
 # 6. External Code/Libraries/Assets
 >Font Shadow @ (Global nav links and header element on Partner page.)
 >> I used the CSS snippets to create a "font border" effect. I used a snipped from this [stackoverflow](https://stackoverflow.com/questions/2570972/css-font-border). I mainly used this because I was afraid if screwing up any of the axis shadows.
->> And I did not want to experiment with -webkit-text-stroke. 
+>> And I did not want to experiment with -webkit-text-stroke. I changed the values to look better on my site.
 
 >Global navbar
 >> this navbar was used when I followed along the "**Progressive Enhancement with JavaScript Components - part 2**" of the Code Institute User Centric Frontend module.

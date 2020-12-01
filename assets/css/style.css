@@ -86,7 +86,7 @@ ul.navbar-nav.mr-auto.navbar-collapsed {
 span.navbar-toggler-icon {
   color: #e0dbd6;
   border: solid 1px;
-  background-color: #e0dbd6;
+  color: #e0dbd6;
   opacity: 40%;
 }
 .navbar-light .navbar-brand {
