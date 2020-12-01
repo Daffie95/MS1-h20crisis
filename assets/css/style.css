@@ -47,9 +47,10 @@ html {
 
   .footer-copyright {
     display: none;
-
-
-  }
+    }
+.video-player-container {
+    padding: 0.3rem;
+}
 }
 
 /* Global Body Styling */
@@ -174,6 +175,11 @@ h1.display-3.jumbo-header {
   font-family: "Roboto";
   font-weight: 300;
   font-size: 3rem;
+}
+
+.iframe-player {
+    display: block;
+    margin-left: 5rem;
 }
 
 /* inpage nav button styling */

@@ -43,6 +43,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 2. Updates
 
 > 0.7 2020-12-01
+>> * Added a [video](https://www.youtube.com/watch?v=E6pjj2gVnWA) to Resources. Made it not autoplay and display controlls.
 >> * Finished content on landing page.
 >> * Updated <strong>3.Planned Updates</strong>.
 >> * Added contet to Landing page.
