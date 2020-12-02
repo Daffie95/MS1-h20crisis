@@ -60,7 +60,7 @@ body {
   color: #f1ece7;
 }
 body {
-  background: url(../images/bg-image.jpg) no-repeat center center fixed;
+  background: url(../images/bg-image-scaled.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -195,6 +195,16 @@ strong.blue-print{
 
 strong.gray-print{
     color: #f1ece7;
+}
+
+table.table.table-striped.table-dark {
+    color: #f1ece7;
+    background-color: #343a40b8;
+}
+
+sup.super-styling {
+    font-size: 10px;
+    font-weight: 200;
 }
 
 /* inpage nav button styling */

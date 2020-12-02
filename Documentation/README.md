@@ -43,6 +43,14 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
+> 0.8 2020-12-02
+
+>> * Styled superscript on resources page.
+>> * Added Formal links to table, and superscript ordering to links on resources page.
+>> * Added Bootstrap Table to resources page.
+>> * Added content to resources page.
+>> * Added global downscaled background image.
+
 > 0.7 2020-12-01
 >> * Added a [video](https://www.youtube.com/watch?v=E6pjj2gVnWA) to Resources. Made it not autoplay and display controlls.
 >> * Finished content on landing page.
@@ -106,7 +114,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Create 404 page.
 >> * ~~Update Landingpage & Resources headers to use different class and scale down on mobile.~~
 >> * ~~Create a mobile inscreen navigation~~ (discarded 2020-12-01)
->> * Downscale background image for faster loading times.
+>> * ~~Downscale background image for faster loading times.~~
 >> * ~~Update colorscheme across page.~~
 >> * ~~Update fonts across page.~~
 >> * ~~Update backgrounds across page.~~
@@ -132,7 +140,9 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 5. Resources Used
 
 > * Code Sources
->> [stackoverflow Font Border/Text Shadow](https://stackoverflow.com/questions/2570972/css-font-border)
+>> [stackoverflow Font Border/Text Shadow](https://stackoverflow.com/questions/2570972/css-font-border)<br>
+>> [CSS Bootstrap Tables](https://getbootstrap.com/docs/4.1/content/tables/)<br>
+>> [Bootstrap CSS Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)<br>
 
 > * Content Sources
 >>[UNWATER](https://www.unwater.org/water-facts/)<br>
@@ -143,11 +153,16 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 
 # 6. External Code/Libraries/Assets
+
+> Bootstrap Table @ resource.html line 201-x
+>> Using a default [bootstrap table layout](https://getbootstrap.com/docs/4.1/content/tables/) to then style it to match the site.
+>>
+
 >Font Shadow @ (Global nav links and header element on Partner page.)
 >> I used the CSS snippets to create a "font border" effect. I used a snipped from this [stackoverflow](https://stackoverflow.com/questions/2570972/css-font-border). I mainly used this because I was afraid if screwing up any of the axis shadows.
 >> And I did not want to experiment with -webkit-text-stroke. I changed the values to look better on my site.
 
->Global navbar
+> Global navbar
 >> this navbar was used when I followed along the "**Progressive Enhancement with JavaScript Components - part 2**" of the Code Institute User Centric Frontend module.
 >> I think here is a copy of it in my [GitHub](https://github.com/Daffie95/bootstrap-intro) as I followed along on my own project. This is the [sourcecode for that project](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/04-progressive_enhancements_with_javascript_components-part-2/index.html).
 
