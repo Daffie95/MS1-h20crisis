@@ -152,8 +152,8 @@ Testing documentation can be found in TESTING.md.
 
 # 3. Planned Updates
 
-> List of what updates coming to the page (updated 2020-12-02)
-> > - Comment code for pre-release version
+> List of what updates coming to the page (updated 2020-12-03)
+> > - ~~Comment code for pre-release version~~
 > > - ~~Add social media icons to partner text sections~~
 > > - ~~Spellcheck index.html~~
 > > - ~~Spellcheck resource.html~~
@@ -183,11 +183,46 @@ Testing documentation can be found in TESTING.md.
 
 # 5. Resources Used
 
-> - Code Sources
->   > [stackoverflow Font Border/Text Shadow](https://stackoverflow.com/questions/2570972/css-font-border)<br> >> [CSS Bootstrap Tables](https://getbootstrap.com/docs/4.1/content/tables/)<br> >> [Bootstrap CSS Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)<br>
+> - ### Code Sources (unordered)
+>> [stackoverflow Font Border/Text Shadow](https://stackoverflow.com/questions/2570972/css-font-border)<br> 
+>> [Bootstrap CSS Tables](https://getbootstrap.com/docs/4.1/content/tables/)<br> 
+>> [Bootstrap CSS Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)<br>
+>> [Bootstrap CSS Overview](https://getbootstrap.com/docs/4.5/layout/overview/)<br>
+>> [Bootstrap CSS Display Property](https://getbootstrap.com/docs/4.0/utilities/display/)<br>
+>> [Bootstrap CSS Grid System](https://getbootstrap.com/docs/4.5/layout/grid/)<br>
+>> [Bootstrap CSS Navs](https://getbootstrap.com/docs/4.0/components/navs/)<br>
+>> [Bootstrap CSS Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)<br>
+>> [Bootstrap CSS Borders](https://getbootstrap.com/docs/4.0/utilities/borders/)<br>
+>> [Bootstrap CSS Images](https://getbootstrap.com/docs/4.0/content/images/)<br>
+>> [Bootstrap Screenreaders](https://getbootstrap.com/docs/4.1/utilities/screenreaders/)<br>
+>> [Bootstrap CSS Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)<br>
+>> [Bootstrap CSS Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/)<br>
+>> [Bootstrap CSS Sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/)<br>
+>> [Bootstrap CSS Typography](https://getbootstrap.com/docs/4.5/content/typography/)<br>
+>> [Bootstrap CSS Breadcrumbs](https://getbootstrap.com/docs/4.5/components/breadcrumb/)<br>
+>> [Bootstrap CSS Theming](https://getbootstrap.com/docs/4.5/getting-started/theming/)<br>
 
-> - Content Sources
->   > [UNWATER](https://www.unwater.org/water-facts/)<br> >>[WHOlives](https://wholives.org/our-mission/mission/)<br> >>[Ramsar](https://www.ramsar.org/)<br> >>[waterfootprintnetwork](https://waterfootprint.org/)<br> >>[the three water footprints](https://waterfootprint.org/en/water-footprint/what-is-water-footprint/) (additional comments @ line 172)<br> >>[World Health Organisation](https://www.who.int/)<br> >>[GuideStar Seals](https://learn.guidestar.org/seals)<br> >>[Circle of Blue](https://www.circleofblue.org/)
+> - ### Content Sources (unordered)
+>>[UNWATER](https://www.unwater.org/water-facts/)<br> 
+>>[WHOlives](https://wholives.org/our-mission/mission/)<br> 
+>>[Ramsar](https://www.ramsar.org/)<br> 
+>>[waterfootprintnetwork](https://waterfootprint.org/)<br> 
+>>[the three water footprints](https://waterfootprint.org/en/water-footprint/what-is-water-footprint/) (additional comments @ line 172)<br> 
+>>[World Health Organisation](https://www.who.int/)<br> 
+>>[GuideStar Seals](https://learn.guidestar.org/seals)<br> 
+>>[Circle of Blue](https://www.circleofblue.org/)<br>
+>>[Grammarly](https://app.grammarly.com/)<br>
+>>[Water Scarcity Explained](https://www.youtube.com/watch?time_continue=6&v=E6pjj2gVnWA&feature=emb_logo)<br>
+>>[SDG-6 Video](https://www.youtube.com/watch?time_continue=6&v=E6pjj2gVnWA&feature=emb_logo)<br>
+>>[SDG-6 UN-Water](https://www.unwater.org/)<br>
+>>[NWF Accounts](https://waterfootprint.org/media/downloads/Report50-NationalWaterFootprints-Vol1.pdf)<br>
+>>[Yangtze River](https://en.wikipedia.org/wiki/Yangtze#Contribution_to_ocean_pollution)<br>
+>>[WHO](https://www.who.int/)<br>
+>>[WWF](https://www.worldwildlife.org/#)<br>
+>>[WCN](https://wildnet.org/)<br>
+>>[WWC](https://www.worldwatercouncil.org/en)<br>
+>>[National Geographic](https://www.nationalgeographic.com/)<br>
+>>[Circle of blue](https://www.circleofblue.org/)<br>
 
 # 6. External Code/Libraries/Assets
 
@@ -207,7 +242,7 @@ Testing documentation can be found in TESTING.md.
 
 > partners.html @ Line 33-181
 >
-> > This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187 _this is currently with placeholder text_.
+> > This snippet is taken from [an older course project](https://github.com/Daffie95/bootstrap-intro/blob/master/index.html) the original lines are 137-187.
 > > The Original code is made by me. The reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
 
 # 7. Additional Comments

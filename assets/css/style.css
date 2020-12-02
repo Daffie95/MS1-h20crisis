@@ -148,6 +148,14 @@ a.navbar-light .navbar-nav .nav-link.active {
     color: rgb(0 0 0 / 50%);
     border-color: rgb(255 255 255);
 }
+/* Link Styling */
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  color: #fff;
+}
 
 /* Jumbotron styling (Landingpage & Resources) */
 .jumbotron {
@@ -167,13 +175,7 @@ h1.display-4.jombotron-header {
   color: #e0dbd6;
   text-align: center;
 }
-a,
-a:hover,
-a:focus,
-a:active,
-a:visited {
-  color: #fff;
-}
+
 
 h1.display-3.jumbo-header {
   text-align: center;

@@ -260,6 +260,11 @@ Color schematic: <br>
 > > > - <span style="color:green;">750 Warnings are from Bootstrap CDN</span>
 
 
-## 5. WebDev 2020-12-02 (~22:49) [link to result]()
+## 5. WebDev 2020-12-02 (~22:49) 
+> [link to result](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F)
 
-## 6. Network
+## 6. Network 
+> [Link to DevTools Screenshot](https://gyazo.com/1d5b4d4e26e3372c3b3a7e443017d299)
+
+## 7. Performance
+> [Link to DevTools Screenshot](https://gyazo.com/142e8346b42048b74ff87436ff112c94)
