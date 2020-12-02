@@ -239,15 +239,8 @@ button.btn.btn-outline-secondary {
 }
 
 /* Partner page styling */
-.partner-page {
-  background: url(/assets/images/bg-image.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .page-header h2 {
-  color: #d5e4e0;
+  color: #e0dbd6;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -266,6 +259,14 @@ button.btn.btn-outline-secondary {
 }
 .rounded-circle {
   background: #fff;
+}
+
+strong.partners-link-styling {
+    text-decoration: underline;
+}
+
+.row.partner-row-styling {
+    display: inline-flex;
 }
 
 /* Help us & Contacts Styling */
