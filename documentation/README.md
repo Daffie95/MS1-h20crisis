@@ -27,6 +27,9 @@ Testing documentation can be found in TESTING.md.
 
 > ### Project Timeline.
 >
+> Wireframe pictures
+>
+> > [Imgur - Landingpage](https://i.imgur.com/7y4d3kZ.jpg)<br> >> [Imgur - Helpus](https://i.imgur.com/JioxpRl.jpg)<br> >> [Imgur - Partners](https://i.imgur.com/tesmfHW.jpg)<br> >> [Imgur - Resources](https://i.imgur.com/Bba7efP.jpg)<br>
 > > The timeline can be found [Here](https://patrik-svahnstrm-team-1.monday.com/boards/879556521).
 
 <hr>
@@ -54,8 +57,11 @@ Testing documentation can be found in TESTING.md.
 
 # 2. Updates
 
-> <strong>#0.92020-12-03</strong>
->
+> <strong>#1.0 2020-12-2</strong>
+>> * added placeholder 404 page.
+
+> <strong>#0.9 2020-12-02</strong>
+> > - Added pictures of wireframe to README.md (1. Project Planning)
 > > - Added TESTING.MD
 > > - Added and styled social media icons on partner.html.
 > > - Spellchecked helpus.html.
@@ -173,16 +179,6 @@ Testing documentation can be found in TESTING.md.
 > > - ~~Add content to Help us.~~
 > > - Run final debugger.
 > > - Run final testing.
-
-# 4. Bugs & Errors
-
-> Active link not showing correct color. (2020-11-30)
->
-> > - <strong>Expected result:</strong>
-> >   "Help Us & Contacts" link to be correct color when active, and not green as it is in idle state.
-> > - <strong>Actual Result:</strong> >> ~~"Help Us & Contacts" link turns the wrong color on active but is being overwritten to turn back to green.~~
-> > - <strong>Solution:</strong>
-> >   Targetting the correct class with proper
 
 # 5. Resources Used
 
