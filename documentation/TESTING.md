@@ -1,17 +1,24 @@
-# This page contains documentation for testing and debugging the project.
+
 
 # Milestone Project 1
+## This page contains documentation for testing and debugging the project. Aswell as final testing.
 
-## The H20 Crisis
+### The H20 Crisis
 
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
 1. <strong>Testing</strong>
 2. <strong>Bugs & Errors</strong>
 3. <strong>Final Testing</strong><br>
-   - Testing Landing Page - Line 73.
-   - Testing Resources Page - Line 104.
-   - Testing Partner Page - Line 142.
+   - Testing Home Page Links - Line 73.
+   - Testing Resources Page Links - Line 104.
+   - Testing Partner Page Links - Line 142.
+   - Testing Help Us Page Links - Line 189.
+        - <strong>W3C CSS Validator</strong>
+        - Home page. - Line
+        - Resources page. Line
+        - Partners page. Line
+        - Help Us page. Line
 
 # 1. Testing
 
@@ -24,9 +31,9 @@ Color codes:<br>
 >
 > > Expected result: 404 page to show when invalid link is selected.
 > >
-> > > Actual Result:
+> > > Actual Result: <span style="color:red;">Custom 404 page shows instead of default 404 page</span>
 > >
-> > > Measure Taken:
+> > > Measure Taken: <span style="color:green;">Creating a custom 404 page is not a gradeable topic in this project. Removed</span>
 
 > <strong>#2020-12-02 (~13:20)</strong> [W3C CSS Validator - Jigsaw](https://jigsaw.w3.org/css-validator/)
 >
@@ -65,7 +72,8 @@ Color codes:<br>
 
 # 3. Final Testing
 
-Color schematic: <br id="landingpagetesting">
+
+Color schematic: <br>
 - <span style="color:#007bff">Blue is Top Navigation Elements</span><br>
 - <span style="color:#d39e00">Orange is In-page navigation Elements</span><br>
 - <span style="color:#bf7272;">Red is Navigation Elements</span><br>
@@ -77,9 +85,10 @@ Color schematic: <br id="landingpagetesting">
 - <span style="color:#00d3c9;">Cyan is Footer email Element</span><br>
 - <span style="color:#04f343;">Poison green is Image Element</span><br>
 <br>
+### <strong>Links</strong>
 
-> Testing Landing page#04f343
->
+> Testing Home page
+
 > > Does the link work?
 > >
 > > > - <span style="color:green;">[X] <span style="color:#007bff">Navigator Brand link</span>
@@ -104,7 +113,7 @@ Color schematic: <br id="landingpagetesting">
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link</span>
 
-> Testing Resources Page
+> <strong>Testing Resources Page</strong>
 >
 > > Does the link work?
 > >
@@ -141,7 +150,7 @@ Color schematic: <br id="landingpagetesting">
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link</span>
 
-> Testing Partners Page
+> <strong>Testing Partners Page</strong>
 >
 > > Does the link work?
 > >
@@ -150,23 +159,62 @@ Color schematic: <br id="landingpagetesting">
 > > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Partners" link (internal)</span>
 > > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Help us" link (internal)</span>
 
-> > > - <span style="color:#04f343;">[X] WHO Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] WHO anchor link (_blank)</span><br>
-> > > - <span style="color:#04f343;">[X] WFF Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] WFF anchor link (_blank)</span><br>
-> > > - <span style="color:#04f343;">[X] WCN Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] WCN anchor link (_blank)</span><br>
-> > > - <span style="color:#04f343;">[X] WWC Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] WWC anchor link (_blank)</span><br>
-> > > - <span style="color:#04f343;">[X] NatGeo Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] NatGeo anchor link (_blank)</span><br>
-> > > - <span style="color:#04f343;">[X] Circle of blue Image link (_blank)</span><br>
-> > > - <span style="color:#3e0e0e;">[X] Circle of blue anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> WHO Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> WHO anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> WFF Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> WFF anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> WCN Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> WCN anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> WWC Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> WWC anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> NatGeo Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> NatGeo anchor link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#04f343;"> Circle of blue Image link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#3e0e0e;"> Circle of blue anchor link (_blank)</span><br>
 
-> > > -
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WHO Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WHO Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WHO Instagram Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WWF Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WWF Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WWF Instagram Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WCN Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WCN Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WCN Instagram Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WWC Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> WWC Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> NatGeo Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> NatGeo Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> NatGeo Instagram Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> Circle of Blue Facebook Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> Circle of Blue Twitter Link (_blank)</span><br>
+> > > - <span style="color:green;">[X]<span style="color:#d300cd;"> Circle of Blue Instagram Link (_blank)</span><br>
 
 > > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Resources</span>
 > > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Help us</span>
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link</span>
-<span style="color:#04f343;">Poison green is Image Element</span><br>
+
+> <strong>Testing Help Us page</strong>
+>
+> > Does the link work?
+> >
+> > > - <span style="color:green;">[X] <span style="color:#007bff">Navigator Brand link</span>
+> > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Informational Resources" link</span>
+> > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Partners" link</span>
+> > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Help us" link</span>
+
+> > > - <span style="color:green;">[X] <span style="color:#3e0e0e;">Embrace Relief's Donation page (_blank)</span>
+> > > - <span style="color:green;">[X] <span style="color:#3e0e0e;">Donate & Save lifes (_blank)</span>
+
+> > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Partners (internal)</span>
+
+> > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link (external by default)</span>
+
+### W3C CSS Validator Jigsaw 2020-12-02 (~22:20)
+<strong>Testing Home page</strong>
+
+> Errors <br>
+> >
+> Warnings <br>
+> >
