@@ -153,7 +153,7 @@ Testing documentation can be found in TESTING.md.
 # 3. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-02)
->
+> > - Comment code for pre-release version
 > > - ~~Add social media icons to partner text sections~~
 > > - ~~Spellcheck index.html~~
 > > - ~~Spellcheck resource.html~~
@@ -191,7 +191,7 @@ Testing documentation can be found in TESTING.md.
 
 # 6. External Code/Libraries/Assets
 
-> Bootstrap Table @ resource.html line 201-x
+> Bootstrap Table @ resource.html line 201-275
 >
 > > Using a default [bootstrap table layout](https://getbootstrap.com/docs/4.1/content/tables/) to then style it to match the site.
 
