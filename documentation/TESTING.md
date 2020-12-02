@@ -7,18 +7,20 @@
 
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
-1. <strong>Testing</strong>
-2. <strong>Bugs & Errors</strong>
-3. <strong>Final Testing</strong><br>
-   - Testing Home Page Links - Line 73.
-   - Testing Resources Page Links - Line 104.
-   - Testing Partner Page Links - Line 142.
-   - Testing Help Us Page Links - Line 189.
+1. <strong>Testing</strong> - Line 25.
+2. <strong>Bugs & Errors</strong> - Line 63.
+4. <strong>Final Testing</strong> - Line 75.
+   - Testing index.html Links - Line 73.
+   - Testing resources.html Links - Line 104.
+   - Testing partner.html Links - Line 142.
+   - Testing helpus.html Links - Line 189.
         - <strong>W3C CSS Validator</strong>
-        - Home page. - Line
-        - Resources page. Line
-        - Partners page. Line
-        - Help Us page. Line
+        - index.html. - Line 215.
+        - resources.html. - Line 226.
+        - partners.html. - Line 237.
+        - helpus.html. - Line 249.
+5. <strong>Web.Dev</strong>. - Line 263.
+6. <strong>Network</strong>
 
 # 1. Testing
 
@@ -87,7 +89,7 @@ Color schematic: <br>
 <br>
 ### <strong>Links</strong>
 
-> Testing Home page
+> Testing index.html page
 
 > > Does the link work?
 > >
@@ -211,10 +213,51 @@ Color schematic: <br>
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link (external by default)</span>
 
-### W3C CSS Validator Jigsaw 2020-12-02 (~22:20)
-<strong>Testing Home page</strong>
+## W3C CSS Validator Jigsaw 2020-12-02 (~22:20) 
+<strong>Testing index.html</strong> [Link to result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 > Errors <br>
-> >
+> > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
+> > - <span style="color:red;">Property overflow-anchordoes not exist: none</span>
+> > > - <span style="color:green;">Errors are from Bootstrap CDN</span>
+
 > Warnings <br>
-> >
+> > - <span style="color:orange;">750</span>
+> > > - <span style="color:green;">Warnings are from Bootstrap CDN</span>
+
+<strong>Testing resources.html</strong> [Link to Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fresources.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+> Errors <br>
+> > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
+> > - <span style="color:red;">Property overflow-anchordoes not exist: none</span>
+> > > - <span style="color:green;">Both errors are from Bootstrap CDN</span>
+
+> Warnings <br>
+> > - <span style="color:orange;">750</span>
+> > > - <span style="color:green;">All warnings are from Bootstrap CDN</span>
+
+<strong>Testing partners.html</strong>
+
+> Errors <br>
+> > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
+> > - <span style="color:red;">Property overflow-anchordoes not exist: none</span>
+> > > - <span style="color:green;">Both errors are from Bootstrap CDN</span>
+
+> Warnings <br>
+> > - <span style="color:orange;">769</span>
+> > > - <span style="color:green;">750 Warnings are from Bootstrap CDN</span>
+> > > - <span style="color:green;">19 Warnings are from Font Awesome CDN</span>
+
+<strong>Testing helpus.html</strong>
+
+> Errors <br>
+> > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
+> > - <span style="color:red;">Property overflow-anchordoes not exist: none</span>
+> > > - <span style="color:green;">Both errors are from Bootstrap CDN</span>
+
+> Warnings <br>
+> > - <span style="color:orange;">769</span>
+> > > - <span style="color:green;">750 Warnings are from Bootstrap CDN</span>
+
+
+## WebDev 2020-12-02 (~22:49) [link to result]()
