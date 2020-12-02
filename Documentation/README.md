@@ -44,10 +44,10 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 2. Updates
 
 > 0.8 2020-12-02
-
+>> * Added content to partners page.
 >> * Styled superscript on resources page.
->> * Added Formal links to table, and superscript ordering to links on resources page.
->> * Added Bootstrap Table to resources page.
+>> * Added formal links to table, and superscript ordering to links on resources page.
+>> * Added bootstrap Table to resources page.
 >> * Added content to resources page.
 >> * Added global downscaled background image.
 

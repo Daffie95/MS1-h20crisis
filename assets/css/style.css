@@ -48,9 +48,12 @@ html {
   .footer-copyright {
     display: none;
     }
-.video-player-container {
-    padding: 0.3rem;
+
+strong.partners-link-styling{
+    text-transform: uppercase;
 }
+
+
 }
 
 /* Global Body Styling */
@@ -270,13 +273,7 @@ strong.partners-link-styling {
 }
 
 /* Help us & Contacts Styling */
-.help-us-page {
-  background: url(/assets/images/bg-image.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 .jumbotron.jumbotron-fluid {
   background: rgba(0, 0, 0, 0.4);
 }
