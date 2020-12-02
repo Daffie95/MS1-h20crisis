@@ -58,6 +58,7 @@ Testing documentation can be found in TESTING.md.
 # 2. Updates
 
 > <strong>#1.0 2020-12-2</strong>
+>> * Updated final testing in TESTING.md
 >> * added placeholder 404 page.
 
 > <strong>#0.9 2020-12-02</strong>
