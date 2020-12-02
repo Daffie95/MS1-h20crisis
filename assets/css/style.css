@@ -22,17 +22,17 @@ html {
   }
   .jumbotron.landingpage-text-container {
     display: table-cell;
-    width: 100%;
+    width: 90% !important;
+    padding: 15px !important;
+    
   }
+
   p.lead {
     max-width: 100%;
     font-size: 19px;
   }
 
-  .jumbotron.landingpage-text-container {
-    padding: 15px !important;
-    width: 90% !important;
-  }
+  
 
   h1.display-3.jumbo-header {
     font-size: 2rem !important;
@@ -51,7 +51,11 @@ html {
 
 strong.partners-link-styling{
     text-transform: uppercase;
-}
+    }
+
+    .footer-arrows {
+        display:none;
+    }
 
 
 }
@@ -64,9 +68,6 @@ body {
 }
 body {
   background: url(../images/bg-image-scaled.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -75,29 +76,24 @@ a.navbar-brand {
   font-size: 40px;
   margin-left: 10px;
   font-weight: 400;
-  color: #e0dbd6;
+  color: rgba(236, 231, 227, 1);
   font-family: "Roboto";
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 ul.navbar-nav.mr-auto.navbar-collapsed {
   margin-top: 20px;
-  border: solid 2px #e0dbd6;
+  border: solid 2px rgba(236, 231, 227, 1);
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
-span.navbar-toggler-icon {
-  color: #e0dbd6;
-  border: solid 1px;
-  color: #e0dbd6;
-  opacity: 40%;
-}
+
 .navbar-light .navbar-brand {
-  color: #e0dbd6;
+  color: rgba(236, 231, 227, 1);
   font-family: "Roboto";
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #e0dbd6;
+  color: rgba(236, 231, 227, 1);
   font-weight: 400;
   font-family: "Roboto";
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
@@ -115,7 +111,7 @@ span.navbar-toggler-icon {
   text-decoration: underline;
 }
 .d-none > a {
-  color: #e0dbd6;
+  color: rgba(236, 231, 227, 1);
   font-weight: 400;
   text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -125,7 +121,7 @@ span.navbar-toggler-icon {
 }
 .d-none.d-md-block {
   margin-top: 20px;
-  margin-right: 180px;
+  margin-right: 20px;
 }
 .d-none .d-md-block a:active {
   color: #e0dbd6;
@@ -145,6 +141,12 @@ a.navbar-light .navbar-nav .nav-link.active {
 .navbar-light .navbar-nav .nav-link.active {
   color: white;
   text-decoration: underline;
+}
+
+/* Navbar toggler styling */
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 50%);
+    border-color: rgb(255 255 255);
 }
 
 /* Jumbotron styling (Landingpage & Resources) */
@@ -224,8 +226,20 @@ button.btn.btn-outline-secondary {
 }
 
 /* footer styling */
+.footer-arrows{
+    text-align: center;
+    font-weight: 400;
+    color: rgba(236, 231, 227, 1);
+}
+
+.next.footer-arrows{
+text-align: center;
+    font-weight: 400;
+    color: rgba(236, 231, 227, 1);
+}
+
 .navbar-footer {
-  background-color: rgb(105 127 134);
+  background-color: rgba(241, 236, 231, 0.8);
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -234,7 +248,7 @@ button.btn.btn-outline-secondary {
   padding-top: 5px;
 }
 .navbar-footer a {
-  color: #e9e9eb;
+  color:rgba(41, 50, 50, 1);
 }
 
 .footer-copyright.text-center.py-3 {

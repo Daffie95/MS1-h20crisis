@@ -43,7 +43,14 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 
 # 2. Updates
 
-> 0.8 2020-12-02
+> <strong>#0.8 2020-12-02</strong>
+>> * Added page navigation above the footer
+>> * Changed "Help Us & Contacts" to "Help us"
+>> * Updated Titles across all pages
+>> * Updated links to publisher in table on resources page.
+>> * Updated nav toggler border color.
+>> * Updated README.md testing section with colorcoding.
+>> * Cleaned up style.css.
 >> * Added content to partners page.
 >> * Styled superscript on resources page.
 >> * Added formal links to table, and superscript ordering to links on resources page.
@@ -51,7 +58,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Added content to resources page.
 >> * Added global downscaled background image.
 
-> 0.7 2020-12-01
+> <strong>#0.7 2020-12-01</strong>
 >> * Added a [video](https://www.youtube.com/watch?v=E6pjj2gVnWA) to Resources. Made it not autoplay and display controlls.
 >> * Finished content on landing page.
 >> * Updated <strong>3.Planned Updates</strong>.
@@ -61,7 +68,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Connected in-page nav to corresponding sections on the page.
 >> * updated Link:focus color.
 
-> 0.6 2020-11-30
+> <strong>#0.6 2020-11-30</strong>
 >> * Finished styling Help us page
 >> * Added logos for respective quotes section.
 >> * Added global "back-to-top" footer on mobile only.
@@ -70,24 +77,24 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Finished styling the frame and background for the resources page.
 >> * Finished styling the frame and background for the homepage page.
 
-> 0.5 2020-11-29
+> <strong>#0.5 2020-11-29</strong>
 >> * navbar now collapses into hamburger menu on small screen devices (see <strong>6.</strong>).
 >> * Improved navbar on all pages.
 >> * Begin styling of pages.
 
-> 0.4 2020-11-27
+> <strong>#0.4 2020-11-27</strong>
 >> * Added dates to 2. Updates.
 >> * Removed all css because I couldnt focus on only Framework ...
 >> * Updated global navbar to A from UL.
 
-> 0.3 2020-11-27
+> <strong>0.3 2020-11-27</strong>
 >> * Added container with placeholder text to helpus.html.
 >> * Updated README.
 >> * Re-modeled code snippet mentioned below.
 >> * Added code snippet from previous work because the goal was quite similar. also mentioned in <strong>6.</strong>
 >> * Started Framework on Partner page.
 
-> 0.2 2020-11-27
+> <strong>#0.2 2020-11-27</strong>
 >> * Added placeholder footer.
 >> * Gave Landingpage and Resources text container a gradient background.
 >> * Updated index.htlm & Resources.html to match.
@@ -95,7 +102,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Added placeholder background.
 >> * Added Smooth scroll.
 
-> 0.1 2020-11-27
+> <strong>#0.1 2020-11-27</strong>
 >> * Fixed position for in-page buttons.
 >> * Content Box for main text.
 >> * Buttons to navigate in-page to content.
@@ -104,13 +111,22 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * Font libraries (Dosis, Roboto) from google fonts.
 >> * Bootstrap v4.5 into all HTML documents for the page. And made sure all responsive meta-tags is in place.
 
-> 0.0 2020-11-27
+> <strong>#0.0 2020-11-27</strong>
 >> * Project is Created.
 
 # 3. Planned Updates
 
-> List of what updates coming to the page (updated 2020-12-01)
->> * Update every link, image, video to have alt attribute and to use the target:_blank attribute
+> List of what updates coming to the page (updated 2020-12-02)
+>> * Spellcheck index.html
+>> * Spellcheck resource.html
+>> * Spellcheck partners.html
+>> * Spellcheck Helpus.html
+>> * ~~Update titles to "H2O Crisis | XXX"~~
+>> * ~~Change visual link to helpus.html page from "Help us & contacts" to "Help Us"~~
+>> * ~~Create website navigation at the bottom of pages.~~
+>> * ~~Add links to "publisher" table element on resources page.~~
+>> * Fix navbar toggler to position right on resources page.
+>> * ~~Update every link, image, video to have alt attribute and to use the target:_blank attribute~~
 >> * Create 404 page.
 >> * ~~Update Landingpage & Resources headers to use different class and scale down on mobile.~~
 >> * ~~Create a mobile inscreen navigation~~ (discarded 2020-12-01)
@@ -119,11 +135,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> * ~~Update fonts across page.~~
 >> * ~~Update backgrounds across page.~~
 >> * ~~Update footer across page.~~
->> * Update mobile footer across page.
+>> * ~~Update mobile footer across page.~~
 >> * ~~Add content to frontpage.~~
->> * Add content to Resources.
->> * Add content to partners.
->> * Add content to Help us.
+>> * ~~Add content to Resources.~~
+>> * ~~Add content to partners.~~
+>> * ~~Add content to Help us.~~
 >> * Run final debugger.
 >> * Run final testing.
 
@@ -151,6 +167,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >>[waterfootprintnetwork](https://waterfootprint.org/)<br>
 >>[the three water footprints](https://waterfootprint.org/en/water-footprint/what-is-water-footprint/) (additional comments @ line 172)<br>
 >>[World Health Organisation](https://www.who.int/)<br>
+>>[GuideStar Seals](https://learn.guidestar.org/seals)<br>
+>>[Circle of Blue](https://www.circleofblue.org/)
 
 
 # 6. External Code/Libraries/Assets
@@ -172,15 +190,29 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 >> The Original code is made by me. The reason for this is that I wanted to achive something similar to what we used with rounded image circles and text following the images.
 
 # 7. Testing
-> 2020-12-01 (~18:30)
->> filepath errors across all pages. 
->>> * Filepath errors across all pages (Fixed)
+Color codes:<br>
+<span style="color:red;">Red is errors <br>
+<span style="color:orange;">Orange is warnings<br>
+<span style="color:green;">Green is fixed errors or warnings<br>
 
->>  Background image slows down loading. 
->>> * Backgrond image slows down loading (WiP)
 
->> Redundant code in css.style.
->>> * Redundant code in css.style (WiP)
+
+> <strong>#2020-12-02 (~13:20)</strong> [W3C CSS Validator - Jigsaw](https://jigsaw.w3.org/css-validator/)
+>> <span style="color:orange;">unknown supplier extension</span><br>
+>>> * -webkit-background-size
+>>> * -moz-background-size
+>>> * -o-background-size
+>>>> <span style="color:green;">No errors found.</span>
+
+> <strong>#2020-12-01 (~18:30)</strong> [W3C CSS Validator - Jigsaw](https://jigsaw.w3.org/css-validator/)
+>> <span style="color:red;">filepath errors across all pages.</span> 
+>>>  <span style="color: green;">Filepath errors across all pages (Fixed)</span>
+
+>>  <span style="color:red;">Background image slows down loading.</span> 
+>>>  <span style="color: green;">Backgrond image slows down loading (Fixed)</span>
+
+>> <span style="color: orange;">Redundant code in css.style.</span>
+>>>  <span style="color: red;">Redundant code in css.style </span>
 
 # 8. Final Testing
 
