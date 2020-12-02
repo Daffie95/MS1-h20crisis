@@ -268,7 +268,7 @@ text-align: center;
   padding: 15px;
 }
 .partner-row-styling p {
-  padding: 25px;
+  padding: 8px;
 }
 .blockquote-styling {
   background: rgba(0, 0, 0, 0.4);
@@ -284,6 +284,14 @@ strong.partners-link-styling {
 
 .row.partner-row-styling {
     display: inline-flex;
+}
+
+.partner-icons {
+    text-align: center;
+}
+::before {
+    padding: 35px;
+    color: #ece7e3;
 }
 
 /* Help us & Contacts Styling */

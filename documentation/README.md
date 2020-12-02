@@ -44,10 +44,11 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 2. Updates
 
 > <strong>#0.92020-12-03</strong>
->> * Spellchecked helpus.html
->> * Spellchecked partners.html
->> * Spellchecked index.html
->> * Spellchecked resources.html
+>> * Added and styled social media icons on partner.html.
+>> * Spellchecked helpus.html.
+>> * Spellchecked partners.html.
+>> * Spellchecked index.html.
+>> * Spellchecked resources.html.
 
 > <strong>#0.8 2020-12-02</strong>
 >> * Added page navigation above the footer
@@ -123,6 +124,7 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 3. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-02)
+>> * ~~Add social media icons to partner text sections~~
 >> * ~~Spellcheck index.html~~
 >> * ~~Spellcheck resource.html~~
 >> * ~~Spellcheck partners.html~~
