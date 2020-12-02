@@ -44,6 +44,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 # 2. Updates
 
 > <strong>#0.92020-12-03</strong>
+>> * Spellchecked helpus.html
+>> * Spellchecked partners.html
 >> * Spellchecked index.html
 >> * Spellchecked resources.html
 
@@ -123,8 +125,8 @@ The Ideas I have is to create an eyecatching but "concentrated" flow of informat
 > List of what updates coming to the page (updated 2020-12-02)
 >> * ~~Spellcheck index.html~~
 >> * ~~Spellcheck resource.html~~
->> * Spellcheck partners.html
->> * Spellcheck Helpus.html
+>> * ~~Spellcheck partners.html~~
+>> * ~~Spellcheck Helpus.html~~
 >> * ~~Update titles to "H2O Crisis | XXX"~~
 >> * ~~Change visual link to helpus.html page from "Help us & contacts" to "Help Us"~~
 >> * ~~Create website navigation at the bottom of pages.~~
