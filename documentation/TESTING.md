@@ -75,8 +75,10 @@ Color schematic: <br id="landingpagetesting">
 - <span style="color:#d300cd;">Magenta is Social Media icons Elements</span><br>
 - <span style="color:#001ad3;">Ultramarine is Footer Navigation Elements</span><br>
 - <span style="color:#00d3c9;">Cyan is Footer email Element</span><br>
+- <span style="color:#04f343;">Poison green is Image Element</span><br>
+<br>
 
-> Testing Landing page
+> Testing Landing page#04f343
 >
 > > Does the link work?
 > >
@@ -148,7 +150,23 @@ Color schematic: <br id="landingpagetesting">
 > > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Partners" link (internal)</span>
 > > > - <span style="color:green;">[X] <span style="color:#007bff">Nav. "Help us" link (internal)</span>
 
-> > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to The H2O Crisis</span>
-> > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Partners</span>
+> > > - <span style="color:#04f343;">[X] WHO Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] WHO anchor link (_blank)</span><br>
+> > > - <span style="color:#04f343;">[X] WFF Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] WFF anchor link (_blank)</span><br>
+> > > - <span style="color:#04f343;">[X] WCN Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] WCN anchor link (_blank)</span><br>
+> > > - <span style="color:#04f343;">[X] WWC Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] WWC anchor link (_blank)</span><br>
+> > > - <span style="color:#04f343;">[X] NatGeo Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] NatGeo anchor link (_blank)</span><br>
+> > > - <span style="color:#04f343;">[X] Circle of blue Image link (_blank)</span><br>
+> > > - <span style="color:#3e0e0e;">[X] Circle of blue anchor link (_blank)</span><br>
+
+> > > -
+
+> > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Resources</span>
+> > > - <span style="color:green;">[X] <span style="color:#001ad3;">Footer Navigation to Help us</span>
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link</span>
+<span style="color:#04f343;">Poison green is Image Element</span><br>
