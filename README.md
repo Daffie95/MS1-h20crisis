@@ -187,7 +187,7 @@ Testing documentation can be found in TESTING.md.
 > > - ~~Change visual link to helpus.html page from "Help us & contacts" to "Help Us"~~
 > > - ~~Create website navigation at the bottom of pages.~~
 > > - ~~Add links to "publisher" table element on resources page.~~
-> > - Fix navbar toggler to position right on resources page.
+> > - ~~Fix navbar toggler to position right on resources page.~~
 > > - ~~Update every link, image, video to have alt attribute and to use the target:_blank attribute~~
 > > - ~~Create 404 page.~~ (custom 404 page is not a gradeable point for milestone project 1)
 > > - ~~Update Landingpage & Resources headers to use different class and scale down on mobile.~~
@@ -202,8 +202,8 @@ Testing documentation can be found in TESTING.md.
 > > - ~~Add content to Resources.~~
 > > - ~~Add content to partners.~~
 > > - ~~Add content to Help us.~~
-> > - Run final debugger.
-> > - Run final testing.
+> > - ~~Run final debugger.~~
+> > - ~~Run final testing.~~
 
 # 5. Resources Used
 

@@ -233,8 +233,8 @@ Color schematic: <br>
 
 > > > - <span style="color:green;">[X]<span style="color:#00d3c9;">Email link (external by default)</span>
 
-## W3C CSS Validator Jigsaw 2020-12-02 (~22:20) 
-<strong>Testing index.html</strong> [Link to result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+## W3C CSS Validator Jigsaw 2020-12-03 (~12:25) 
+<strong>Testing index.html</strong> [Link to result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 > Errors <br>
 > > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
@@ -256,7 +256,7 @@ Color schematic: <br>
 > > - <span style="color:orange;">750</span>
 > > > - <span style="color:green;">All warnings are from Bootstrap CDN</span>
 
-<strong>Testing partners.html</strong>
+<strong>Testing partners.html</strong> [link to result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fpartners.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 > Errors <br>
 > > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
@@ -268,7 +268,7 @@ Color schematic: <br>
 > > > - <span style="color:green;">750 Warnings are from Bootstrap CDN</span>
 > > > - <span style="color:green;">19 Warnings are from Font Awesome CDN</span>
 
-<strong>Testing helpus.html</strong>
+<strong>Testing helpus.html</strong> [link to result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fhelpus.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 > Errors <br>
 > > - <span style="color:red;">Property text-decoration-skip-inkdoes not exist: none</span> 
@@ -280,14 +280,15 @@ Color schematic: <br>
 > > > - <span style="color:green;">750 Warnings are from Bootstrap CDN</span>
 
 
-## 5. WebDev 2020-12-02 (~22:49) 
-> [link to result](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F)
+## 5. WebDev  
+> 2020-12-02 (~22:49) [link to result](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F)<br>
+> 2020-12-03 (~12:23) [link to result](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Findex.html)
 
 ## 6. Nu Html Checker 2020-12-03 (~12:19)
-> [link to result for index.html]()
-> [link to result for resoruces.html]()
-> [link to result for partners.html]()
-> [link to result for helpus.html]()
+> [link to result for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F)<br>
+> [link to result for resoruces.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fresources.html)<br>
+> [link to result for partners.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fpartners.html)<br>
+> [link to result for helpus.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2Fhelpus.html)<br>
 
 ## 6. Network 
 > [Link to DevTools Screenshot](https://gyazo.com/22e5b43c296c6a9c3553d89ec636f1dd)
