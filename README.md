@@ -1,6 +1,6 @@
 ## Milestone Project 1
 
-# The H20 Crisis [Link to GitHub Page](https://daffie95.github.io/MS1-h20crisis/)
+# The H20 Crisis
 
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
@@ -14,22 +14,27 @@ Testing documentation can be found in TESTING.md.
 <br>
 
 ## Table of Contents
+1. <strong>Conclusions</strong>
+2. <strong>Project Planning</strong>
+3. <strong>Updates</strong>
+4. <strong>Planned Updates</strong>
+5. <strong>Bugs & Errors</strong>
+6. <strong>Resources Used</strong>
+7. <strong>External Code/Libraries/Assets</strong>
+8. <strong>Additional Comments</strong>
 
-1. <strong>Project Planning</strong>
-2. <strong>Updates</strong>
-3. <strong>Planned Updates</strong>
-4. <strong>Bugs & Errors</strong>
-5. <strong>Resources Used</strong>
-6. <strong>External Code/Libraries/Assets</strong>
-7. <strong>Additional Comments</strong>
+# 1. Conclusions
 
-# 1. Project Planning
+# 2. Project Planning
 
 > ### Project Timeline.
 >
 > Wireframe pictures
 >
-> > [Imgur - Landingpage](https://i.imgur.com/7y4d3kZ.jpg)<br> >> [Imgur - Helpus](https://i.imgur.com/JioxpRl.jpg)<br> >> [Imgur - Partners](https://i.imgur.com/tesmfHW.jpg)<br> >> [Imgur - Resources](https://i.imgur.com/Bba7efP.jpg)<br>
+> > [Imgur - Landingpage](https://i.imgur.com/7y4d3kZ.jpg)<br> 
+>> [Imgur - Helpus](https://i.imgur.com/JioxpRl.jpg)<br> 
+>> [Imgur - Partners](https://i.imgur.com/tesmfHW.jpg)<br> 
+>> [Imgur - Resources](https://i.imgur.com/Bba7efP.jpg)<br>
 > > The timeline can be found [Here](https://patrik-svahnstrm-team-1.monday.com/boards/879556521).
 
 <hr>
@@ -55,7 +60,7 @@ Testing documentation can be found in TESTING.md.
 
 <hr>
 
-# 2. Updates
+# 3. Updates
 
 > <strong>#1.1 2020-12-3</strong>
 >> * fixed scaling issues for navbar on mobile
@@ -153,7 +158,7 @@ Testing documentation can be found in TESTING.md.
 >
 > > - Project is Created.
 
-# 3. Planned Updates
+# 4. Planned Updates
 
 > List of what updates coming to the page (updated 2020-12-03)
 > > - ~~Comment code for pre-release version~~

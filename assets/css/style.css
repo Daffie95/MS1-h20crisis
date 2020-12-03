@@ -25,6 +25,16 @@ nav.navbar.navbar-light.navbar-expand-sm.resources {
     width: 25rem !important;
 }
 
+button.navbar-toggler.ml-auto{
+    font-size: 1rem !important;
+}
+
+h2.partner-header {
+    font-size: 1.2rem;
+}
+.partner-row-styling {
+    padding: 0%;
+}
   .jombotron-header {
     display: none;
   }
