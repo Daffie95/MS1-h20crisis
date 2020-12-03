@@ -1,6 +1,6 @@
 ## Milestone Project 1
 
-# The H20 Crisis
+# The H20 Crisis [Link to GitHub Page](https://daffie95.github.io/MS1-h20crisis/)
 
 Please forward questions to my [e-mail](patrik.svahnstrom@gmail.com)
 
