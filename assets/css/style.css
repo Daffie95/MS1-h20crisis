@@ -21,6 +21,10 @@ html {
     font-size: 1.3rem !important;
 }
 
+nav.navbar.navbar-light.navbar-expand-sm.resources {
+    width: 25rem !important;
+}
+
   .jombotron-header {
     display: none;
   }
