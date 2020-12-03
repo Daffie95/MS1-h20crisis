@@ -283,8 +283,14 @@ Color schematic: <br>
 ## 5. WebDev 2020-12-02 (~22:49) 
 > [link to result](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdaffie95.github.io%2FMS1-h20crisis%2F)
 
+## 6. Nu Html Checker 2020-12-03 (~12:19)
+> [link to result for index.html]()
+> [link to result for resoruces.html]()
+> [link to result for partners.html]()
+> [link to result for helpus.html]()
+
 ## 6. Network 
-> [Link to DevTools Screenshot](https://gyazo.com/1d5b4d4e26e3372c3b3a7e443017d299)
+> [Link to DevTools Screenshot](https://gyazo.com/22e5b43c296c6a9c3553d89ec636f1dd)
 
 ## 7. Performance
-> [Link to DevTools Screenshot](https://gyazo.com/142e8346b42048b74ff87436ff112c94)
+> [Link to DevTools Screenshot](https://gyazo.com/7154b85736aca67242df3d7bdc98e126)

@@ -30,7 +30,15 @@ Testing documentation can be found in TESTING.md.
 > But I will have to work outside of the schedule that was given to me. 
 
 > Overall i am happy with the project, I am happy with the content on the page, the layout and color palette. I am also happy about the navigations, both in the navbar and inpage.
-> I struggled with getting the hamburger icon to work for a while but eventually fixed it.
+> I struggled with getting the hamburger icon to work for a while but eventually fixed it. 
+
+> There are issues I am not knowledgeable enough to fix (I feel), things like the background image does not load on my private phone, but does on every other device I have tried.
+> Some padding issues that I believe origins from me being very stressed out since beginning this project. The overall layout of the page works but is *very* rough around the edge in my opinion.
+> Working on this made me aware of how important the philosofy of "mobile first" is, and I admit that I might have overlooked that in certain places. "mobile-first" is probobly the biggest take-away 
+> from this project for me. Learning how to utilize an extremely powerful tool in Bootstrap atleast makes that part much smoother I was to implement it properly.
+
+> I belive this was a good entry level project (albeit rushed and flawed) and I feel like I have learned a lot about creating projects, workflow and how to structurize my work.
+> I cant say I know if I will (impostor syndrome is strong) pass the grades. I dont feel very confident, but being my very first project at this scale I am overall happy. 
  
 
 # 2. Project Planning
