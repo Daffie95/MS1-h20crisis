@@ -10,6 +10,7 @@ This is a <strong>fictional</strong> webpage created for the first milestone pro
 <br>
 
 Testing documentation can be found in TESTING.md.
+Code comments can be found in "Final Pre-Release
 
 <br>
 
