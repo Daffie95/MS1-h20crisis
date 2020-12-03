@@ -73,6 +73,15 @@ Color codes:<br>
 >   >   > <span style=": green;">-</span>
 > >  comment: I dont know how to troubleshoot this error, the background image is in place while using the DevTools on the GitHub page.
 
+> - <strong>Expected result:</strong>
+>   > No padding to be present on main text container on index.html
+>   >
+>   > - <strong>Result:</strong>
+>   >   > <span style="color: red;"> padding is in place on index.html </span>
+>   > - <strong>Solution:</strong>
+>   >   > <span style=": green;">-</span>
+> >  comment: I dont know how to troubleshoot this error, the padding is not in place while using the DevTools on the GitHub page.
+
 > <span style="color: orange;">Active link not showing correct color. (2020-11-30)
 
 > - <strong>Expected result:</strong>
