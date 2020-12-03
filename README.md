@@ -57,6 +57,9 @@ Testing documentation can be found in TESTING.md.
 
 # 2. Updates
 
+> <strong>#1.1 2020-12-3</strong>
+>> * fixed scaling issues for navbar on mobile
+
 > <strong>#1.0 2020-12-2</strong>
 >> * Updated final testing in TESTING.md
 >> * added placeholder 404 page.

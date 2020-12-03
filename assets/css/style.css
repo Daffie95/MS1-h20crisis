@@ -17,9 +17,9 @@ html {
     display: none;
   }
 
-  nav.navbar.navbar-light.navbar-expand-sm {
-    margin-left: -10px;
-  }
+  a.navbar-brand {
+    font-size: 1.3rem !important;
+}
 
   .jombotron-header {
     display: none;
@@ -31,9 +31,18 @@ html {
     
   }
 
+  .col-sm-12.col-lg-8.order-1{
+      padding-left:0% !important;
+      padding-right: 0% !important;
+  }
+
   p.lead {
     max-width: 100%;
     font-size: 19px;
+  }
+
+  p {
+      font-size: 1rem;
   }
 
   
