@@ -25,6 +25,14 @@ Testing documentation can be found in TESTING.md.
 
 # 1. Conclusions
 
+> The fact that reading this course in an accellarated pase is hard really hit me during this project. I tried my best with creating the idea I had started to shape the moment I knew I had to do MileStone Projects.
+> But following my schedule there are a few gaps when it is accellarated, just following the schedule did not give me enough time to schedule mentor calls prior to beginning working on the project. I plan to continue taking the course at the accellarated speed.
+> But I will have to work outside of the schedule that was given to me. 
+
+> Overall i am happy with the project, I am happy with the content on the page, the layout and color palette. I am also happy about the navigations, both in the navbar and inpage.
+> I struggled with getting the hamburger icon to work for a while but eventually fixed it.
+ 
+
 # 2. Project Planning
 
 > ### Project Timeline.
