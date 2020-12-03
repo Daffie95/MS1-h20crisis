@@ -62,6 +62,17 @@ Color codes:<br>
 
 # 2. Bugs & Errors
 
+> <span style="color: orange;">Background Image does not load on my mobile phone (Iphone X). (2020-12-03)
+
+> - <strong>Expected result:</strong>
+>   > Background to be in place when loading the page on mobile.
+>   >
+>   > - <strong>Result:</strong>
+>   >   > <span style="color: red;"> Background image is not active. </span>
+>   > - <strong>Solution:</strong>
+>   >   > <span style=": green;">-</span>
+> >  comment: I dont know how to troubleshoot this error, the background image is in place while using the DevTools on the GitHub page.
+
 > <span style="color: orange;">Active link not showing correct color. (2020-11-30)
 
 > - <strong>Expected result:</strong>

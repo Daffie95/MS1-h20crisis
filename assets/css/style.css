@@ -40,8 +40,8 @@ h2.partner-header {
   }
   .jumbotron.landingpage-text-container {
     display: table-cell;
-    width: 90% !important;
-    padding: 15px !important;
+   
+    
     
   }
 
@@ -202,7 +202,6 @@ h1.display-4.jombotron-header {
   color: #e0dbd6;
   text-align: center;
 }
-
 
 h1.display-3.jumbo-header {
   text-align: center;
