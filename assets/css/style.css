@@ -8,6 +8,10 @@ html {
 
 /* Media Queries */
 @media only screen and (max-width: 736px) {
+
+    .col-sm-12.col-lg-8.order-1 {
+        width: 20rem !important;
+    }
   
   .col-4.order-2 {
     display: none;
@@ -215,16 +219,25 @@ sup.super-styling {
 }
 
 /* inpage nav button styling */
-button.btn.btn-outline-secondary {
-  margin-left: 100px;
-  border-color: white;
-  color: white;
+
+.-btn-group-vertical {
+    
+    color: #f1ece7;
+    display: block;
+    width: 20%;
+}
+
+a.btn.btn-outline-secondary {
+    margin: 0.2rem;
+    border-color: #f1ece7;
 }
 .btn-outline-secondary:hover {
   background-color: #68625e;
+  border-color: #f1ece7;
 }
 .btn-outline-secondary:focus {
   background-color: #68625e;
+  border: #f1ece7:
 }
 
 /* footer styling */
