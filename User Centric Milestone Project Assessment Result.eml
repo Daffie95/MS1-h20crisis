@@ -1,0 +1,636 @@
+Delivered-To: patrik.svahnstrom@gmail.com
+Received: by 2002:a17:90a:1b68:0:0:0:0 with SMTP id q95csp285956pjq;
+        Thu, 28 Jan 2021 09:35:03 -0800 (PST)
+X-Received: by 2002:a25:b745:: with SMTP id e5mr364719ybm.518.1611855302926;
+        Thu, 28 Jan 2021 09:35:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1611855302; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kzpT///PIIXVyp5tjdJLQ3keOgg1Adosjx3VMEXYxZlRa3klfQpUSLf0scU8yw+XkB
+         AiQQp+m1z3YkbuaRxeLLq2YLMBkJtZIXofAldNbEuv/JDTP4UdgD6AFuSrHtm2/mDS6x
+         QPb4H712X+iBg7Z7EE3Hv6W54VA4Q3LVrntMfe1utlC9Komoj4C51IYuFI6nNX527SWq
+         UITDuoQt6oS1z4Day9R46M68V9sPAC0QJcMOU4P3Z4yyp9xAfz5ZnF8jSkXY6IqyVlP8
+         wG+4ydJbvU6rffzny7/5IV6cpHgo/TeQus2/3Ce+ePlDUviF/WHNcdw0FCLQ0Z5XsmvU
+         ZPQw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:reply-to:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=MJTGBczUPtZq5ZOYpF+jDCCJ14CTKfC4mAN3m9nvkqM=;
+        b=NKx+MHxkORKMyGRiiUz6ULvBjtx9KOnRtRALSMku1SIBTlI1p99Cf7iwMS3qNfZoH/
+         iu+ssA10fikFqVKnrneTgH9mcugMhrcbuSIr+L3G83mNG2QLsdDGB39bkIIHCS7MSw95
+         vAwLErlTyUyEDt141fJrhKdqWYZixuZAjI2QEhrD2wC0i8IXAL25Xd0vqWwIdA85vtkQ
+         LkEhV5httSg/YGzaLzxLThcwhzpWoCDMYlaZntlIVAtTm1N3X8pZWEw6LTTFENe7w+m5
+         JfO9w394I6V8npQAao7HsG1HBg3hA7ghdEkMp+WWXa5pPAsFEGIA6hwRjmEi+Jt4AaOj
+         vL4g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@codeinstitute.net header.s=google header.b=B+Ehg8pj;
+       spf=pass (google.com: domain of results@codeinstitute.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=results@codeinstitute.net;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=codeinstitute.net
+Return-Path: <results@codeinstitute.net>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d39sor1525302yba.101.2021.01.28.09.35.02
+        for <patrik.svahnstrom@gmail.com>
+        (Google Transport Security);
+        Thu, 28 Jan 2021 09:35:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of results@codeinstitute.net designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@codeinstitute.net header.s=google header.b=B+Ehg8pj;
+       spf=pass (google.com: domain of results@codeinstitute.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=results@codeinstitute.net;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=codeinstitute.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codeinstitute.net; s=google;
+        h=mime-version:references:in-reply-to:reply-to:from:date:message-id
+         :subject:to;
+        bh=MJTGBczUPtZq5ZOYpF+jDCCJ14CTKfC4mAN3m9nvkqM=;
+        b=B+Ehg8pj2zQHPCGVkadaL3u59UsCjTgAqGfbfdFxbzu+ALoCgCXeuLWts4I0Q7czzL
+         DqxiUoWhay+n/Jd0I0/EOPSBf0SXOgWhU78REhJ/rJ1AW5GhvF12q/tQGs2PUsJsuTtv
+         RIaDyA3zqxPsTKh4X9Q7jk0JBrmKZN+Txb2PY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:reply-to
+         :from:date:message-id:subject:to;
+        bh=MJTGBczUPtZq5ZOYpF+jDCCJ14CTKfC4mAN3m9nvkqM=;
+        b=LrByQc8QqMYqNwZvfVFzEVAfS5+IfOEjyPio8gFO5AHiqKgHFsnIpPLaIyWPjuxaKb
+         5se3/BubMNJKCRq2El2u753xSyIIRKEyyvqyOrMzYp4FsZfu9n/NZ1UbN1W4EPWWYp/J
+         gZQxV1i7/L1TGoFbcHuxIceANqkoKRf149PjkdLhevvbWU6hy/1eDKu/wKI2K0d6qCIi
+         lprJ384KWG91JHQLgGswZD4xkk9H2zTklTIloiQq3BFfZaYai7MQ4r2DZnP2yaRHkfd/
+         YGgaZXnzMaA1TvCeov+noRbr7gb8vEhp57jw0cxXeJscWprJsqhrxpQ82XgjZVEIz9QU
+         BJiA==
+X-Gm-Message-State: AOAM532j8G+jeUfyZy6vb3BItuVJPpP+QgaJFCxSVH8A/Z4gTU4q6/PZ
+	2H0UV1/bNlt23OA2mwKWcAhgM43TQcch7Kr+y9zJ8IswVwhk/fnvU3QoW3o0Acauw/7T2/ImuJP
+	SZii7fDLCQQWPXtTXbvhfBZL5+fHJxtDZRX7W0BHFmwc=
+X-Google-Smtp-Source: ABdhPJzRFCdzmy+opJx4nIvcNFWUveIkwyeQbh8yvUqXNkQIPp2DmuORh2ET587sa/lqaiKl2B/hYzBH8glC2KHusV4=
+X-Received: by 2002:a25:6ed7:: with SMTP id j206mr389454ybc.312.1611855302226;
+ Thu, 28 Jan 2021 09:35:02 -0800 (PST)
+MIME-Version: 1.0
+References: <CAAd1tQhsOp_SkLj=Armo05+XRaXdhoc0yS0Usw2yZSf6AzO+_Q@mail.gmail.com>
+In-Reply-To: <CAAd1tQhsOp_SkLj=Armo05+XRaXdhoc0yS0Usw2yZSf6AzO+_Q@mail.gmail.com>
+Reply-To: studentcare@codeinstitute.net
+From: Results Assessments <results@codeinstitute.net>
+Date: Thu, 28 Jan 2021 17:34:52 +0000
+Message-ID: <CAN2Zxfuhu5SLBkGVGOntfaahBtjwq+s5zN+N5FU8SLV2KiYTTQ@mail.gmail.com>
+Subject: User Centric Milestone Project Assessment Result | Pass
+To: patrik.svahnstrom@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000b8018605b9f94efc"
+
+--000000000000b8018605b9f94efc
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Patrik,
+
+The assessment of your User Centric Milestone Project has just been
+completed.
+
+The links you submitted were:
+
+   - Deployed project <https://daffie95.github.io/MS1-h20crisis/>
+   - Source code
+   <https://github.com/Code-Institute-Submissions/MS1-h20crisis>
+
+You have received the following textual feedback from the assessor for
+*Pass* Criteria:
+
+Please find the detailed mapping of criteria here.
+<https://codeinstitute.s3-eu-west-1.amazonaws.com/fullstack/03-user-centric-front-end-development/Assessment+Guidelines+CM.pdf>
+
+*LO1 Design a front-end web application based on the principles of user
+experience design, accessibility and responsive design:*
+Criterion Meets Criterion Reason
+1.1 Yes Intuitive navigation options on the website
+1.2 Yes Good contrast throughout allowing content to take center stage on
+the screen
+1.3 Yes Intuitive user experience
+1.4 Yes Simple and Elegant
+1.5 Yes All graphics are consistent in size, resolution and layout
+1.6 Yes Videos are handled correctly and in user control
+Additional The structure of the layout is satisfactory. Navigation links
+sustain a flow. Color contrast possesses a passing ratio and can hinder the
+visually impaired at some point. *LO2 Develop and implement a static Front
+End web application using HTML and CSS.*
+Criterion Meets Criterion Reason
+2.1 Yes Information prioritizes across multiple (>3) pages and highlights
+the core CTA
+2.2 Yes Passes through the official (Jigsaw) validator with no issues
+2.3 Yes Passes through the official (W3C) validator with no issues
+2.4 Yes Consistent images displayed throughout the website
+2.5 Yes All test social links in place
+2.6 Yes Effective use of bootstrap and media queries, All content reflows
+well to fit on all tested media screens
+2.7 Yes Evidence of NAV SECTION and FOOTER elements throughout site
+2.8 Yes All content reflects and clarifies the site's purpose
+2.9 Yes Strategically placed navigation is clear in its intention
+Additional The HTML and CSS code is clean and passes the validator.
+Navigation is easy and straight forward. However, the header tag is
+recommended while practicing semantic markup. *LO3 Maximize future
+maintainability through documentation, code structure and organization.*
+Criterion Meets Criterion Reason
+3.1 Yes Missing relevant steps or included but not described in detail
+3.2 Yes Wireframes present
+3.3 Yes Readme consists of credits to some but not all external resources
+3.4 Yes Clear separation between the code sections is present
+3.5 Yes Code comments missing for different sections
+3.6 Yes CSS links placed appropriately
+3.7 Yes Code formatting is used, but not on all files
+3.8 Yes Meets stated criterion
+3.9 Yes Assets and child directories present
+Additional This aspect is just given a pass because some efforts are given
+to fulfill the requirement. Though the readme file is formatted and
+detailed, it lacks in discussing the deployment phase. Code commenting is
+not overall followed, and code formatting is not covered throughout the
+project. *LO4 Use version control software to maintain, upload and share
+code with other developers.*
+Criterion Meets Criterion Reason
+4.1 Yes Audit trail of Git commits suggests educated usage of version
+control
+4.2 Yes Descriptive commit messages present
+4.3 Yes Markdown used to create a well-structured README and passes
+Grammarly criteria
+Additional Git Version Control is used fairly. Commits are extensive and
+descriptive. However, the commit messages need to be more specific in
+readme updates. Effective formatting is executed in the readme file. *LO5
+Test and deploy a Front End web application to a Cloud platform.*
+Criterion Meets Criterion Reason
+5.1 Yes All user stories tested and documented
+5.2 Yes Separate file dedicated to testing documentation
+5.3 Yes Matches content up to submitted commit
+5.4 Yes Commented-out code is not present in submitted version
+5.5 Yes All links return status code 200
+Additional Though the readme file presents a clear rationale and includes
+detailed testing, the deployment steps are not included. However, there are
+no broken links and uncommented code. The deployed version is the same as
+the remote.
+
+You have received the following textual feedback from the assessor for
+*Merit* Criteria:
+*Merit Criteria Comments: *
+Criterion Meets Criterion Reason
+1.1 No Structure, layout, navigation all lends to a site whose purpose is
+clear from the outset However there is one major area of improvement in
+this where the What is Happening?, and Why is it Happening? elements are
+completely obscured y the background.
+2.1 Yes The purpose is clear from the outset. Information hierarchy is
+supported by consistent imagery and text
+2.2 Yes Site meets all stated user stories
+3.1 No Code lacks in comments and indentation at various points
+4.1 Yes Extensive commit history is evidence of use of best practices
+5.1 No Deployment steps missing in the readme, also Testing is not linked
+to in the Readme though a separate document is present.
+5.4 Yes Bugs and their fixes documented
+5.5 No Development cycle not fully documented
+Additional There are Lacks in color contrast, the readme file is
+suboptimally arranged with the table of contents, and the content not
+matching up perfectly and lacks detail in sections like deployment, which
+does not lead the project to both merit and distinction.
+
+*Additional comments (if any) for Overall Feedback : * The structure of the
+layout is satisfactory. Color contrast possesses a passing ratio and can
+hinder the visually impaired at some point. Navigation is easy and straight
+forward. However, the header tag is recommended while practicing semantic
+markup. Though the readme file is formatted and detailed, it lacks in
+discussing the deployment phase. Commits are extensive and descriptive.
+However, the commit messages need to be more specific in readme updates.
+Lacking robust code and deployment steps restrict the project from
+achieving a higher grade.
+
+You have achieved a *PASS* Grade for this Assessment. Any criterion that
+wasn't fulfilled as a part of Merit grade are marked as No in above
+section. Please note that the feedback you have received is personal to you
+and is considered private so is not to be shared.
+
+Thank you,
+The Code Institute Assessment Team.
+
+[image: Trustpilot rating]
+[image: Trustpilot Stars]
+<https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=Trustbox&utm_source=EmailSignature2>
+[image: Trustpilot Logo]
+<https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=Trustbox&utm_source=EmailSignature2>
+
+-- 
+
+ 
+<https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=Trustbox&utm_source=EmailSignature2>
+ 
+<https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=Trustbox&utm_source=EmailSignature2>
+
+--000000000000b8018605b9f94efc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote">
+<p>Hi Patrik,</p>
+
+<p>The assessment of your User Centric Milestone Project has just been comp=
+leted.</p>
+
+<p>The links you submitted were:
+</p><ul>
+<li><a href=3D"https://daffie95.github.io/MS1-h20crisis/" target=3D"_blank"=
+>Deployed project</a></li>
+<li><a href=3D"https://github.com/Code-Institute-Submissions/MS1-h20crisis"=
+ target=3D"_blank">Source code</a></li>
+</ul>
+<p></p>
+
+<p>You have received the following textual feedback from the assessor for <=
+b>Pass</b> Criteria:</p>
+
+<p> Please find the detailed mapping of criteria <a href=3D"https://codeins=
+titute.s3-eu-west-1.amazonaws.com/fullstack/03-user-centric-front-end-devel=
+opment/Assessment+Guidelines+CM.pdf" target=3D"_blank">here.</a></p>
+
+
+<p><b>LO1 Design a front-end web application based on the principles of use=
+r experience design, accessibility and responsive design:</b></p>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>1.1</td>
+    <td>Yes</td>
+    <td>Intuitive navigation options on the website</td>
+ </tr>
+   <tr>
+    <td>1.2</td>
+    <td>Yes</td>
+    <td> Good contrast throughout allowing content to take center stage on =
+the screen</td>
+ </tr>
+   <tr>
+    <td>1.3</td>
+     <td>Yes</td>
+    <td> Intuitive user experience</td>
+ </tr>
+   <tr>
+    <td>1.4</td>
+     <td>Yes</td>
+    <td> Simple and Elegant</td>
+ </tr>
+   <tr>
+    <td>1.5</td>
+     <td>Yes</td>
+    <td>All graphics are consistent in size, resolution and layout</td>
+ </tr>
+   <tr>
+    <td>1.6</td>
+     <td>Yes</td>
+    <td> Videos are handled correctly and in user control</td>
+ </tr>
+    <tr>
+    <td>Additional</td>
+    <td></td>
+    <td> The structure of the layout is satisfactory. Navigation links sust=
+ain a flow.  Color contrast possesses a passing ratio and can hinder the vi=
+sually impaired at some point. </td> </tr>
+</tbody></table>
+
+<b>LO2 Develop and implement a static Front End web application using HTML =
+and CSS.</b>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>2.1</td>
+    <td>Yes</td>
+    <td>Information prioritizes across multiple (&gt;3) pages and highlight=
+s the core CTA</td>
+ </tr>
+   <tr>
+    <td>2.2</td>
+    <td>Yes</td>
+    <td>Passes through the official (Jigsaw) validator with no issues</td>
+ </tr>
+   <tr>
+    <td>2.3</td>
+    <td>Yes</td>
+    <td>Passes through the official (W3C) validator with no issues</td>
+ </tr>
+   <tr>
+    <td>2.4</td>
+    <td>Yes</td>
+    <td>Consistent images displayed throughout the website</td>
+ </tr>
+   <tr>
+    <td>2.5</td>
+    <td>Yes</td>
+    <td>All test social links in place</td>
+ </tr>
+   <tr>
+    <td>2.6</td>
+    <td>Yes</td>
+    <td>Effective use of bootstrap and media queries, All content reflows w=
+ell to fit on all tested media screens</td>
+ </tr>
+   <tr>
+    <td>2.7</td>
+    <td>Yes</td>
+    <td>Evidence of NAV SECTION and FOOTER elements throughout site</td>
+ </tr>
+   <tr>
+    <td>2.8</td>
+    <td>Yes</td>
+    <td>All content reflects and clarifies the site&#39;s purpose</td>
+ </tr>
+   <tr>
+    <td>2.9</td>
+    <td>Yes</td>
+    <td>Strategically placed navigation is clear in its intention</td>
+ </tr>
+  <tr>
+    <td>Additional</td>
+    <td></td>
+    <td> The HTML and CSS code is clean and passes the validator. Navigatio=
+n is easy and straight forward. However, the header tag is recommended whil=
+e practicing semantic markup.</td>
+    </tr>
+</tbody></table>
+<b>LO3 Maximize future maintainability through documentation, code structur=
+e and organization.</b>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>3.1</td>
+    <td>Yes</td>
+    <td>Missing relevant steps or included but not described in detail</td>
+ </tr>
+   <tr>
+    <td>3.2</td>
+    <td>Yes</td>
+    <td>Wireframes present</td>
+ </tr>
+   <tr>
+    <td>3.3</td>
+    <td>Yes</td>
+    <td>Readme consists of credits to some but not all external resources</=
+td>
+ </tr>
+   <tr>
+    <td>3.4</td>
+    <td>Yes</td>
+    <td>Clear separation between the code sections is present</td>
+ </tr>
+   <tr>
+    <td>3.5</td>
+    <td>Yes</td>
+    <td>Code comments missing for different sections</td>
+ </tr>
+   <tr>
+    <td>3.6</td>
+    <td>Yes</td>
+    <td>CSS links placed appropriately</td>
+ </tr>
+   <tr>
+    <td>3.7</td>
+    <td>Yes</td>
+    <td>Code formatting is used, but not on all files</td>
+ </tr>
+   <tr>
+    <td>3.8</td>
+    <td>Yes</td>
+    <td>Meets stated criterion</td>
+ </tr>
+   <tr>
+    <td>3.9</td>
+    <td>Yes</td>
+    <td>Assets and child directories present</td>
+ </tr>
+
+  <tr>
+    <td>Additional</td>
+    <td></td>
+    <td>This aspect is just given a pass because some efforts are given to =
+fulfill the requirement. Though the readme file is formatted and detailed, =
+it lacks in discussing the deployment phase. Code commenting is not overall=
+ followed, and code formatting is not covered throughout the project.</td>
+    </tr>
+</tbody></table>
+<b>LO4 Use version control software to maintain, upload and share code with=
+ other developers.</b>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" style=3D"border-col=
+lapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>4.1</td>
+    <td>Yes</td>
+    <td>Audit trail of Git commits suggests educated usage of version contr=
+ol</td>
+ </tr>
+   <tr>
+    <td>4.2</td>
+    <td>Yes</td>
+    <td>Descriptive commit messages present</td>
+ </tr>
+   <tr>
+    <td>4.3</td>
+    <td>Yes</td>
+    <td>Markdown used to create a well-structured README and passes Grammar=
+ly criteria</td>
+ </tr>
+  <tr>
+    <td>Additional</td>
+    <td></td>
+    <td>Git Version Control is used fairly. Commits are extensive and descr=
+iptive. However, the commit messages need to be more specific in readme upd=
+ates. Effective formatting is executed in the readme file.</td>
+    </tr>
+</tbody></table><b>LO5 Test and deploy a Front End web application to a Clo=
+ud platform.</b>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" style=3D"border-col=
+lapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>5.1</td>
+    <td>Yes</td>
+    <td>All user stories tested and documented</td>
+ </tr>
+   <tr>
+    <td>5.2</td>
+    <td>Yes</td>
+    <td>Separate file dedicated to testing documentation</td>
+ </tr>
+   <tr>
+    <td>5.3</td>
+    <td>Yes</td>
+    <td>Matches content up to submitted commit</td>
+ </tr>
+   <tr>
+    <td>5.4</td>
+    <td>Yes</td>
+    <td>Commented-out code is not present in submitted version</td>
+ </tr>
+   <tr>
+    <td>5.5</td>
+    <td>Yes</td>
+    <td>All links return status code 200</td>
+ </tr>
+  <tr>
+    <td>Additional</td>
+    <td></td>
+    <td>Though the readme file presents a clear rationale and includes deta=
+iled testing, the deployment steps are not included. However, there are no =
+broken links and uncommented code. The deployed version is the same as the =
+remote.</td>
+    </tr>
+</tbody></table>
+
+<p>You have received the following textual feedback from the assessor for <=
+b>Merit</b> Criteria:</p>
+<b>Merit Criteria Comments: </b>
+<table border=3D"1" cellpadding=3D"5" cellspacing=3D"0" style=3D"border-col=
+lapse:collapse">
+  <tbody><tr>
+    <th width=3D"25%">Criterion</th>
+    <th width=3D"25%">Meets Criterion</th>
+    <th width=3D"50%">Reason</th>
+  </tr>
+  <tr>
+    <td>1.1</td>
+    <td>No</td>
+    <td>Structure, layout, navigation all lends to a site whose purpose is =
+clear from the outset However there is one major area of improvement in thi=
+s where the What is Happening?, and Why is it Happening? elements are compl=
+etely obscured y the background.</td>
+ </tr>
+   <tr>
+    <td>2.1</td>
+    <td>Yes</td>
+    <td>The  purpose is clear from the outset. Information hierarchy is sup=
+ported by consistent imagery and text</td>
+ </tr>
+   <tr>
+    <td>2.2</td>
+    <td>Yes</td>
+    <td>Site meets all stated user stories</td>
+ </tr>
+   <tr>
+    <td>3.1</td>
+    <td>No</td>
+    <td>Code lacks in comments and indentation at various points</td>
+ </tr>
+   <tr>
+    <td>4.1</td>
+    <td>Yes</td>
+    <td>Extensive commit history is evidence of use of best practices</td>
+ </tr>
+   <tr>
+    <td>5.1</td>
+    <td>No</td>
+    <td>Deployment steps missing in the readme, also Testing is not linked =
+to in the Readme though a separate document is present.</td>
+ </tr>
+   <tr>
+    <td>5.4</td>
+    <td>Yes</td>
+    <td>Bugs and their fixes documented</td>
+ </tr>
+   <tr>
+    <td>5.5</td>
+    <td>No</td>
+    <td>Development cycle not fully documented</td>
+ </tr>
+=20
+       <tr>
+    <td>Additional</td>
+    <td></td>
+    <td> There are Lacks in color contrast, the readme file is suboptimally=
+ arranged with the table of contents, and the content not matching up perfe=
+ctly and lacks detail in sections like deployment, which does not lead the =
+project to both merit and distinction.</td> </tr>
+</tbody></table>
+
+<p><b>Additional comments (if any) for Overall Feedback : </b>
+The structure of the layout is satisfactory. Color contrast possesses a pas=
+sing ratio and can hinder the visually impaired at some point. Navigation i=
+s easy and straight forward. However, the header tag is recommended while p=
+racticing semantic markup. Though the readme file is formatted and detailed=
+, it lacks in discussing the deployment phase.  Commits are extensive and d=
+escriptive. However, the commit messages need to be more specific in readme=
+ updates. Lacking robust code and deployment steps restrict the project fro=
+m achieving a higher grade.</p>
+
+<p>You have achieved a <b>PASS</b> Grade for this Assessment. Any criterion=
+ that wasn&#39;t fulfilled as a part of Merit grade are marked as No in abo=
+ve section. Please note that the feedback you have received is personal to =
+you and is considered private so is not to be shared.</p>
+
+<p>
+  Thank you,
+  <br>
+  The Code Institute Assessment Team.
+</p>
+
+<br>
+<a href=3D"https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=3D=
+Trustbox&amp;utm_source=3DEmailSignature2" rel=3D"noopener noreferrer" styl=
+e=3D"background-image:initial;background-position:initial;background-repeat=
+:initial;color:rgb(54,140,215);line-height:inherit;font-family:Arial,&quot;=
+Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,Verdana,sans-serif;font-s=
+ize:12px" target=3D"_blank"><img src=3D"https://emailsignature.trustpilot.c=
+om/signature/en-GB/2/5c7d3cd27f012a000100d274/text.png" border=3D"0" height=
+=3D"16" alt=3D"Trustpilot rating" style=3D"border:none;max-width:100%;heigh=
+t:auto;display:inline-block;vertical-align:middle;max-height:16px"><br><img=
+ src=3D"https://emailsignature.trustpilot.com/signature/en-GB/2/5c7d3cd27f0=
+12a000100d274/stars.png" border=3D"0" width=3D"160" alt=3D"Trustpilot Stars=
+" style=3D"border:none;max-width:160px;height:auto;display:inline-block;ver=
+tical-align:middle;width:160px"></a><span style=3D"color:rgb(170,170,170);f=
+ont-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,Ve=
+rdana,sans-serif;font-size:12px"></span><br style=3D"color:rgb(170,170,170)=
+;font-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,=
+Verdana,sans-serif;font-size:12px"><a href=3D"https://uk.trustpilot.com/rev=
+iew/codeinstitute.net?utm_medium=3DTrustbox&amp;utm_source=3DEmailSignature=
+2" rel=3D"noopener noreferrer" style=3D"background-image:initial;background=
+-position:initial;background-repeat:initial;color:rgb(54,140,215);line-heig=
+ht:inherit;font-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet=
+ MS&quot;,Verdana,sans-serif;font-size:12px" target=3D"_blank"><img src=3D"=
+https://emailsignature.trustpilot.com/brand/s/2/logo.png" border=3D"0" widt=
+h=3D"79" alt=3D"Trustpilot Logo" style=3D"border:none;max-width:79px;height=
+:auto;display:inline-block;vertical-align:middle;width:79px"></a></div></di=
+v>
+
+<br>
+<a href=3D"https://uk.trustpilot.com/review/codeinstitute.net?utm_medium=3D=
+Trustbox&amp;utm_source=3DEmailSignature2" rel=3D"noopener noreferrer" styl=
+e=3D"background-image:initial;background-position:initial;background-repeat=
+:initial;color:rgb(54,140,215);line-height:inherit;font-family:Arial,&quot;=
+Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,Verdana,sans-serif;font-s=
+ize:12px" target=3D"_blank"><img src=3D"https://emailsignature.trustpilot.c=
+om/signature/en-GB/2/5c7d3cd27f012a000100d274/text.png" border=3D"0" height=
+=3D"16" alt=3D"Trustpilot rating" style=3D"border:none;max-width:100%;heigh=
+t:auto;display:inline-block;vertical-align:middle;max-height:16px"><br><img=
+ src=3D"https://emailsignature.trustpilot.com/signature/en-GB/2/5c7d3cd27f0=
+12a000100d274/stars.png" border=3D"0" width=3D"160" alt=3D"Trustpilot Stars=
+" style=3D"border:none;max-width:160px;height:auto;display:inline-block;ver=
+tical-align:middle;width:160px"></a><span style=3D"color:rgb(170,170,170);f=
+ont-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,Ve=
+rdana,sans-serif;font-size:12px"></span><br style=3D"color:rgb(170,170,170)=
+;font-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet MS&quot;,=
+Verdana,sans-serif;font-size:12px"><a href=3D"https://uk.trustpilot.com/rev=
+iew/codeinstitute.net?utm_medium=3DTrustbox&amp;utm_source=3DEmailSignature=
+2" rel=3D"noopener noreferrer" style=3D"background-image:initial;background=
+-position:initial;background-repeat:initial;color:rgb(54,140,215);line-heig=
+ht:inherit;font-family:Arial,&quot;Arial Black&quot;,Tahoma,&quot;Trebuchet=
+ MS&quot;,Verdana,sans-serif;font-size:12px" target=3D"_blank"><img src=3D"=
+https://emailsignature.trustpilot.com/brand/s/2/logo.png" border=3D"0" widt=
+h=3D"79" alt=3D"Trustpilot Logo" style=3D"border:none;max-width:79px;height=
+:auto;display:inline-block;vertical-align:middle;width:79px"></a>
+--000000000000b8018605b9f94efc--
